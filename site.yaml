@@ -8,14 +8,20 @@ plugins:
     - hyde.ext.plugins.textlinks.TextlinksPlugin
 context:
     data:
-        site_title: Site Name
+        site_title: 2501
         author:
-            name: Your Name Here
-            url: "http://example.com"
-        google_analytics_id: UA-XXXXX-YY
+            name: Ben Keller
+            url: "http://www.project2501.ca/contact.html"
+        #google_analytics_id: UA-XXXXX-YY
         home_url: index.html
         menu:
             - title: Home
               url: index.html
-            - title: Landing
-              url: landing.html
+            - title: Projects
+              url: projects.html
+            - title: Contact
+              url: contact.html
+            - title: Curriculum Vitae
+              url: cv.html
+            - title: Blog
+              url: http://bespokeblog.wordpress.com
