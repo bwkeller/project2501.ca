@@ -1,3 +1,4 @@
+*.swp
 layout/deploy
 deploy
 *.hyde_deps
