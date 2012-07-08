@@ -9,6 +9,7 @@ plugins:
 context:
     data:
         site_title: 2501
+        github: https://github.com/bwkeller/project2501.ca
         author:
             name: Ben Keller
             url: "http://www.project2501.ca/contact.html"
