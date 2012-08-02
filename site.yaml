@@ -18,11 +18,13 @@ context:
         menu:
             - title: Home
               url: index.html
-            - title: Projects
-              url: projects.html
             - title: Contact
               url: contact.html
             - title: Curriculum Vitae
               url: cv.html
+            - title: Projects
+              url: projects.html
+            - title: Research
+              url: research.html
             - title: Blog
               url: http://bespokeblog.wordpress.com
