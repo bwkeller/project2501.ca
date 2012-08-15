@@ -1,15 +1,23 @@
 ---
-title: How supernova explosions power galactic winds
+title: Reproducing the paper
+subtitle: <i>How supernova explosions power galactic winds</i>
 ---
 
 {% extends "full.j2" %}
 {% block main %}
-### Derivation of Outflow
+## Derivation of Outflow
+----------------------------
 To calculate the mass-flow through a surface, we can take the definition of the SPH density:
 
 &rho; = &Sigma;<sub>i</sub> m<sub>i</sub> W(**r**<sub>i</sub>, h<sub>i</sub>)
 
-&part; &rho; = &Sigma;<sub>i</sub> m<sub>i</sub> W(**r**<sub>i</sub>, h<sub>i</sub>)
+&part; &rho; / &part; t = &Sigma;<sub>i</sub> m<sub>i</sub> &part; / &part; t W(**r**<sub>i</sub>, h<sub>i</sub>)
+
+Which yields:
+
+&part; &rho; / &part; t = &Sigma;<sub>i</sub> m<sub>i</sub>  **v** / h<sub>i</sub> &part; W(x) / &part; x
+
+since x = &Delta; r / h
 
 For the standard M4 Cubic spline kernel (I got this from Thomas and Couchman 1992):
 
@@ -17,17 +25,68 @@ W(x) = 1/4&pi; (4-6x<sup>2</sup>+3x<sup>3</sup>) if x &leq; 1
 
 W(x) = 1/4&pi; (2-x)<sup>3</sup> if 1 &lt; x &leq; 2
 
+W(x) = 0 elsewhere
 
-&part; W / &part; x = 
+So:
 
-W(x) = 1/4&pi; (4-6x<sup>2</sup>+3x<sup>3</sup>) if x &leq; 1
+&part; W / &part; x = 3/4&pi; (4x+3x<sup>2</sup>) if x &leq; 1
 
-W(x) = 1/4&pi; (2-x)<sup>3</sup> if 1 &lt; x &leq; 2
-### Figures
-![Creasey et. al. Figure 9](Research/creasey_figure9.png)
-The above figure shows the calculated mass-loading factor &beta; versus gas surface density for a number
-of my feedback recipes.
+&part; W / &part; x = 3/4&pi; (2-x)<sup>2</sup> if 1 &lt; x &leq; 2
 
-![Inflow](Research/creasey_inflow.png)
+&part; W / &part; x = 0 elsewhere
+
+To get a surface flux, I took the equation for &part; &rho; / &part; t and 
+calculated the mass flux through the surface with normal **n** as the sum for each 
+particle, where &Delta; r is calculated as the distance to the surface:
+
+&part; &Sigma; / &part; t = &Sigma;<sub>i</sub> m<sub>i</sub>  **v** &middot; **n** / h<sub>i</sub> &part; W(x) / &part; x
+
+ 
+## Figures
+----------------------------
+### Massloading and Flux Plots
+<img src="Research/creasey_figure9.png">
+The above figure shows the calculated mass-loading factor &beta; versus gas surface 
+density for a number of my feedback recipes.
+
+<img src="Research/creasey_massloading_time.png">
+This figure is similar to the above figure, but show the massloading as a function of
+time to examine the evolution of &beta;
+
+<img src="Research/creasey_inflow.png">
+The above figure shows simply the mass inflow rate calculated for the various feedback
+schemes I have tried.
+
+### Velocity Profiles
+#### MAGICC Feedback
+<img src="Research/creasey_figure1c_MAGICC_10Myr_wide.png">
+
+<img src="Research/creasey_figure1c_MAGICC_10Myr.png">
+The above 2 plots show the velocity profile derived using MAGICC feedback at 10 Myr,
+just after the first ~600 stars have formed.  As the figure shows, the early stellar
+feedback hasn't yet stopped the inflow.
+
+<img src="Research/creasey_figure1c_MAGICC_30Myr_wide.png">
+
+<img src="Research/creasey_figure1c_MAGICC_30Myr.png">
+The above 2 plots show the velocity profile derived using MAGICC feedback at 30 Myr,
+just after the first bout of SNe activity has occured.  As you can see, inflow has 
+become outflow!
+
+#### Gasoline SNe Feedback
+<img src="Research/creasey_figure1c_feedback_10Myr_wide.png">
+
+<img src="Research/creasey_figure1c_feedback_10Myr.png">
+This shows the Gasoline SNe feedback velocities at 10Myr.  No feedback of any kind has
+happened yet.
+
+<img src="Research/creasey_figure1c_feedback_30Myr_wide.png">
+
+<img src="Research/creasey_figure1c_feedback_30Myr.png">
+This shows the Gasoline SNe feedback velocity profile just after the first bout of SNe,
+at 30 Myr.  As you can see, this is not nearly as effective as MAGICC in driving an 
+outflow, although it does seem to be starting to blister out into the inflow near the 
+center of the slice.
+
 {% endblock main %}
 
