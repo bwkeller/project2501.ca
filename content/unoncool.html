@@ -5,6 +5,37 @@ title: Nonthermal Energy in Gasoline
 {% extends "research.j2" %}
 {% block main %}
 Energy Equation
------------------------------------
+-------------------------------------------------------------------------------
+$$\frac{du}{dt} = -(\gamma-1)u\nabla\cdot v - \Lambda + 
+\frac{u_{NC}}{\tau_{conv}} - \kappa\nabla^2 u$$
+$$\frac{du_{NC}}{dt} = -(\gamma-1)u_{NC}\nabla\cdot v - \frac{u_{NC}}{\tau_{conv}} 
+- \kappa\nabla^2 u_{NC} + \dot u_{FB}$$
+
+This defines a new pressure as follows
+ 
+$$P = \rho(\gamma-1)(u+u_{NC})$$
+
+Experiments and Results
+===============================================================================
+
+Single Star Box
+-------------------------------------------------------------------------------
+I generated a box with an isotropic box with uniform temperature and density.  
+This box contained 4096 gas particles and a single star particle.  The box was 
+set to match roughly our starformation threshold ($T=1000K$, $\rho=10 cm^{-3}$).
+The box is a cube with 10 kpc sides.  The gas particles have mass 
+$6.09*10^7 M_{\odot}$, and the star particles have the same mass.
+
+[<img src="Research/noncool_comparison.png" width=800>](Research/noncool_comparison.png)
+**The above figure shows the total and thermal energy breakdown of a run with standard 
+cooling gasoline with the noncooling version using the values in the output log.**
+
+[<img src="Research/noncool_budget.png" width=800>](Research/noncool_budget.png)
+**This figure shows the breakdown of the energy within the box in the form of 
+microscopic thermal (u), microscopic nonthermal (uNoncool), kinetic, and the sum total.**
+
+[<img src="Research/noncool_maxT.png" width=800>](Research/noncool_maxT.png)
+[<img src="Research/noncool_maxv.png" width=800>](Research/noncool_maxv.png)
+**The above figures show the maxiumum temperature and velocities within the box.
 {% endblock main %}
 
