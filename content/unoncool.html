@@ -59,17 +59,40 @@ microscopic thermal (u), microscopic nonthermal (uNoncool), kinetic, and the sum
 **The above figures show the maxiumum temperature and velocities within the box.**
 
 ### Varying $\tau_{conv}$ ###
-
-[<img src="Research/noncool_budget_tconv.png" width=800>](Research/noncool_budget_tconv.png)
-[<img src="Research/noncool_u_budget_tconv.png" width=800>](Research/noncool_u_budget_tconv.png)
-[<img src="Research/noncool_maxT_tconv.png" width=800>](Research/noncool_maxT_tconv.png)
-[<img src="Research/noncool_maxv_tconv.png" width=800>](Research/noncool_maxv_tconv.png)
+For the following runs, I switched to a lower density of $\rho=1 cm^{-3}$
+[<img src="Research/0_noncool_budget_tconv.png" width=800>](Research/0_noncool_budget_tconv.png)
+**This figure shows the breakdown of the energy within the box in the form of 
+microscopic thermal (u) and microscopic nonthermal (uNoncool)**
+[<img src="Research/0_noncool_u_budget_tconv.png" width=800>](Research/0_noncool_u_budget_tconv.png)
+**This figure shows just the thermal (u) energy**
+[<img src="Research/0_noncool_maxT_tconv.png" width=800>](Research/0_noncool_maxT_tconv.png)
+[<img src="Research/0_noncool_maxv_tconv.png" width=800>](Research/0_noncool_maxv_tconv.png)
+**The above figures show the maxiumum temperature and velocities within the box.**
 
 ### Varying $\tau_{conv}$ with Cooling ###
 
-[<img src="Research/noncool_u_budget_cooling_tconv.png" width=800>](Research/noncool_u_budget_cooling_tconv.png)
-[<img src="Research/noncool_total_budget_cooling_tconv.png" width=800>](Research/noncool_total_budget_cooling_tconv.png)
-[<img src="Research/noncool_maxT_cooling_tconv.png" width=800>](Research/noncool_maxT_cooling_tconv.png)
-[<img src="Research/noncool_maxv_cooling_tconv.png" width=800>](Research/noncool_maxv_cooling_tconv.png)
+[<img src="Research/0_noncool_u_budget_cooling_tconv.png" width=800>](Research/0_noncool_u_budget_cooling_tconv.png)
+**This figure shows the evolution of the thermal (u) energy in the box**
+[<img src="Research/0_noncool_unoncool_budget_cooling_tconv.png" width=800>](Research/0_noncool_u_budget_cooling_tconv.png)
+**This figure shows the evolution of the nonthermalthermal (u0_noncool) energy in the box**
+[<img src="Research/0_noncool_kinetic_budget_cooling_tconv.png" width=800>](Research/0_noncool_u_budget_cooling_tconv.png)
+**This figure shows the evolution of the kinetic energy in the box**
+[<img src="Research/0_noncool_total_budget_cooling_tconv.png" width=800>](Research/0_noncool_total_budget_cooling_tconv.png)
+**This figure shows the evolution of the total energy in the box**
+[<img src="Research/0_noncool_maxT_cooling_tconv.png" width=800>](Research/0_noncool_maxT_cooling_tconv.png)
+[<img src="Research/0_noncool_maxv_cooling_tconv.png" width=800>](Research/0_noncool_maxv_cooling_tconv.png)
+**The above figures show the maxiumum temperature and velocities within the box.**
+[<img src="Research/noncool_internal_budget_cooling_tconv.png" width=800>](Research/noncool_internal_budget_cooling_tconv.png)
+**The above figure shows the total pressure-contributing internal energy**
+
+### $10^4 M_\odot$ Star Cluster ###
+I repeated the above tests using a smaller star cluster, $10030 M_\odot$, with $1.4\times10^8 M\_odot$ of gas in $33434 M_\odot$ 
+particles.  The uniform density is $0.1 cm^{-3}$, and the temperature is 1000 K.  The following figures show properties this
+box run with cooling gas.
+[<img src="Research/10e4Mstar_maxv.png" width=800>](Research/10e4Mstar_maxv.png)
+**The above figures show the maxiumum velocity in the box (ie, the edge of the feedback region).**
+[<img src="Research/0_10e4Mstar_internal_energy.png" width=800>](Research/0_10e4Mstar_internal_energy.png)
+**This figure shows the total pressure-contributing internal energy**
+
 {% endblock main %}
 
