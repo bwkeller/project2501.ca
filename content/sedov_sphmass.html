@@ -22,7 +22,6 @@ Initial run with $\alpha = 2.0$ , with the following Makefile DEFINES:
 [<img src="Research/sedov_sphmass_A.png" width=800>](Research/sedov_sphmass_A.png)
 ## Balsara switch off
 ### [Parameter File](Research/0_sedov_128.param)
-<pre><code>bViscosityLimiter = 0</code></pre>
 ### Radial Growth
 [<img src="Research/sedov_sphmass_noB.png" width=800>](Research/sedov_sphmass_noB.png)
 ### Radial Velocity
@@ -41,4 +40,18 @@ Initial run with $\alpha = 2.0$ , with the following Makefile DEFINES:
 [<img src="Research/sedov_sphmass_longstep_temp.png" width=800>](Research/sedov_sphmass_longstep_temp.png)
 ### Final Entropy
 [<img src="Research/sedov_sphmass_longstep_A.png" width=800>](Research/sedov_sphmass_longstep_A.png)
+## 32 Neighbour Smooth
+The purpose of these runs, identical to the above save for the "original" Sedov run smoothing over half as 
+many neighbours (32 vs. 64) is to see if the behaviour of varying particle masses can be roughly approximated
+as a reduced smoothing length.
+### [Parameter File](Research/2_sedov_128.param)
+
+### Radial Growth
+[<img src="Research/sedov32_sphmass.png" width=800>](Research/sedov32_sphmass.png)
+### Radial Velocity
+[<img src="Research/sedov32_sphmass_vel.png" width=800>](Research/sedov32_sphmass_vel.png)
+### Final Temperature
+[<img src="Research/sedov32_sphmass_temp.png" width=800>](Research/sedov32_sphmass_temp.png)
+### Final Entropy
+[<img src="Research/sedov32_sphmass_A.png" width=800>](Research/sedov32_sphmass_A.png)
 {% endblock main %}
