@@ -1,10 +1,10 @@
 ---
-title: SPH Particle Mass Variation with the Sedov Blast
+title: SPH Particle Mass Variation with the Shocks
 ---
 
 {% extends "research.j2" %}
 {% block main %}
-Experiments and Results
+Sedov Blast Experiments 
 ===============================================================================
 ## First (Good) Run
 Initial run with $\alpha = 2.0$ , with the following Makefile DEFINES:
@@ -54,4 +54,26 @@ as a reduced smoothing length.
 [<img src="Research/sedov32_sphmass_temp.png" width=800>](Research/sedov32_sphmass_temp.png)
 ### Final Entropy
 [<img src="Research/sedov32_sphmass_A.png" width=800>](Research/sedov32_sphmass_A.png)
+## Corrected Energy
+The Energy in the above runs are not all equal.  Here are the same results with equal energy injection
+(and thus the same self-similarity solution)
+### Radial Growth
+[<img src="Research/sedov_sphmass_correctE_longstep.png" width=800>](Research/sedov_sphmass_correctE_longstep.png)
+### Radial Velocity
+[<img src="Research/sedov_sphmass_correctE_longstep_vel.png" width=800>](Research/sedov_sphmass_correctE_longstep_vel.png)
+### Final Temperature
+[<img src="Research/sedov_sphmass_correctE_longstep_temp.png" width=800>](Research/sedov_sphmass_correctE_longstep_temp.png)
+### Final Entropy
+[<img src="Research/sedov_sphmass_correctE_longstep_A.png" width=800>](Research/sedov_sphmass_correctE_longstep_A.png)
+## Corrected Energy, 32 Neighbours
+### Radial Growth
+[<img src="Research/sedov32_sphmass_correctE.png" width=800>](Research/sedov32_sphmass_correctE.png)
+### Radial Velocity
+[<img src="Research/sedov32_sphmass_correctE_vel.png" width=800>](Research/sedov32_sphmass_correctE_vel.png)
+### Final Temperature
+[<img src="Research/sedov32_sphmass_correctE_temp.png" width=800>](Research/sedov32_sphmass_correctE_temp.png)
+### Final Entropy
+[<img src="Research/sedov32_sphmass_correctE_A.png" width=800>](Research/sedov32_sphmass_correctE_A.png)
+Colliding Flows Experiments 
+===============================================================================
 {% endblock main %}
