@@ -1,0 +1,24 @@
+---
+title: Timestep Debugging
+---
+
+{% extends "research.j2" %}
+{% block main %}
+Confirmation of Multistepping Bug
+-------------------------------------------------------------------------------
+The following images are the same IC and parameters run with and without SPH
+single-stepping (single-stepped image on the left, multi-stepped on the right)
+The images are from timestep 96, ~9 Myr after the beginning:
+
+### Temperature:
+[<img src="Research/timesteps/step96_temp.png" width=800>](Research/timesteps/step96_temp.png)
+
+### Density:
+[<img src="Research/timesteps/step96_rho.png" width=800>](Research/timesteps/step96_rho.png)
+
+
+The IC used was the one from action item 2b, 2x2x2kpc box with 0.1 H/cc density and $10^4K$ 
+temperature, with a $10^4M_\odot$ star cluster at the center.  This run was the $64^3$ particle
+version.
+{% endblock main %}
+
