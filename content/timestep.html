@@ -20,5 +20,27 @@ The images are from timestep 96, ~9 Myr after the beginning:
 The IC used was the one from action item 2b, 2x2x2kpc box with 0.1 H/cc density and $10^4K$ 
 temperature, with a $10^4M_\odot$ star cluster at the center.  This run was the $64^3$ particle
 version.
+
+Further Investigations (Feb. 2013)
+-------------------------------------------------------------------------------
+It appears that there are still problems with multistepping. In the perturbed disk slice IC,
+I am getting (very) large energy non-conservation.  As the following plots show, I am getting 
+a handful of particles that are (much) hotter than the maximum feedback temperature ($1.8 * 10^8 K$).
+
+[<img src="Research/dSteps_toohot_bug/phase_46Myr.png" width=800>](Research/dSteps_toohot_bug/phase_46Myr.png)
+[<img src="Research/dSteps_toohot_bug/temperature_evolution.png" width=800>](Research/dSteps_toohot_bug/temperature_evolution.png)
+
+This isn't because of a feedback problem:
+[<img src="Research/dSteps_toohot_bug/hotparticle_uDotFB.png" width=800>](Research/dSteps_toohot_bug/hotparticle_uDotFB.png)
+
+Once again, this problem goes away when singlestepping is used:
+[<img src="Research/dSteps_toohot_bug/bad_multistepping_temp.png" width=800>](Research/dSteps_toohot_bug/bad_multistepping_temp.png)
+[<img src="Research/dSteps_toohot_bug/bad_multistepping_energy.png" width=800>](Research/dSteps_toohot_bug/bad_multistepping_energy.png)
+
+This is ultimately causing a crash when particle 63340 gets a massive uDotPdV applied to it.  The difference in
+the phase diagrams of the single and multi-stepping runs is *very* scary:
+[<img src="Research/dSteps_toohot_bug/phase_46Myr_badstepping.png" width=800>](Research/dSteps_toohot_bug/phase_46Myr_badstepping.png)
+[<img src="Research/dSteps_toohot_bug/phase_46Myr_1step.png" width=800>](Research/dSteps_toohot_bug/phase_46Myr_1step.png)
+[<img src="Research/dSteps_toohot_bug/phase_46Myr_multistep.png" width=800>](Research/dSteps_toohot_bug/phase_46Myr_multistep.png)
 {% endblock main %}
 
