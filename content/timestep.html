@@ -59,4 +59,13 @@ with starformation turned off.  This should let me run essentially the same set 
 
 As the above figures show, the cooling does cause some *slight* energy conservation errors
 compared to the adiabatic gas, but it is nowhere near the magnitude of the previous runs.
+
+It seems that the really extreme case of non-conservation is only happening when both gravity and cooling
+is used with multistepping enabled.  This is very troublesome.
+
+#### Energy Conservation
+[<img src="Research/timesteps/4panel_energy.png" width=800>](Research/timesteps/4panel_energy.png)
+
+#### Maximum Temperature 
+[<img src="Research/timesteps/4panel_maxtemp.png" width=800>](Research/timesteps/4panel_maxtemp.png)
 {% endblock main %}
