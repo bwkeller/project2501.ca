@@ -68,4 +68,23 @@ is used with multistepping enabled.  This is very troublesome.
 
 #### Maximum Temperature 
 [<img src="Research/timesteps/4panel_maxtemp.png" width=800>](Research/timesteps/4panel_maxtemp.png)
+
+Cubic IC
+-------------------------------------------------------------------------------
+Perhaps the weird partial-periodic, many replicas IC dimensions I was using caused some of this trouble.  I made an IC
+from the previous runs by cutting out the inner cubic kpc.  It still shows the same problems, but at least now it is much faster.
+I plot below the uDot history of the hottest particle in the simulation (crosses are singlestep outputs):
+[<img src="Research/timesteps/hotparticle_udot_breakdown.png" width=800>](Research/timesteps/hotparticle_udot_breakdown.png)
+
+<h3><a id="substeps">Energy change on substeps </a></h3>
+I took an output from $\approx 10$ Myr from the previous singlestep run, and ran it with a number of debugging print statements.
+This allowed me to get at all of the uDots.  As the following images show, for PdV, Artificial Viscosity, and Diffusion, the 
+single and multistep results do not perfectly match.  However, it looks like uDotPdV is the largest both in terms of difference
+between the two runs, and just straight magnitude.  Note that the y-scale on the AV plot is logarithmic. I assume for the "right"
+answer that the integrals of these curves should match. Also note that the changes in PdV heating occurs just before a 
+KickClose (I'm not sure the signifigance of this).
+
+[<img src="Research/timesteps/hotparticle_substep_uDotPdV.png" width=800>](Research/timesteps/hotparticle_substep_uDotPdV.png)
+[<img src="Research/timesteps/hotparticle_substep_uDotAV.png" width=800>](Research/timesteps/hotparticle_substep_uDotAV.png)
+[<img src="Research/timesteps/hotparticle_substep_uDotDiff.png" width=800>](Research/timesteps/hotparticle_substep_uDotDiff.png)
 {% endblock main %}
