@@ -1,7 +1,5 @@
 .doit.db
 *.pyc
 *.swp
-layout/deploy
-deploy
-*.hyde_deps
+output
 *.DS_Store

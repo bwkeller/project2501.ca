@@ -55,9 +55,9 @@ TRANSLATIONS = {
 # You should provide a key-value pair for each used language.
 SIDEBAR_LINKS = {
     DEFAULT_LANG: (
-        ('/contact.html', 'Contact'),
-        ('/cv.html', 'Curriculum Vitae'),
-        ('/projects.html', 'Projects'),
+        ('/pages/contact.html', 'Contact'),
+        ('/pages/cv.html', 'Curriculum Vitae'),
+        ('/pages/projects.html', 'Projects'),
         ('bespokeblog.wordpress.com', 'Blog (External)'),
     ),
 }
@@ -90,8 +90,8 @@ SIDEBAR_LINKS = {
 #
 
 post_pages = (
-    ("posts/*.txt", "posts", "post.tmpl", True),
-    ("stories/*.txt", "stories", "story.tmpl", False),
+    ("posts/*.md", "posts", "post.tmpl", True),
+    ("pages/*.md", "pages", "story.tmpl", False),
 )
 
 # One or more folders containing files to be copied as-is into the output.
@@ -108,8 +108,8 @@ post_pages = (
 # 'markdown' is MarkDown
 # 'html' assumes the file is html and just copies it
 post_compilers = {
-    "rest": ('.txt', '.rst'),
     "markdown": ('.md', '.mdown', '.markdown'),
+    "rest": ('.txt', '.rst'),
     "textile": ('.textile',),
     "txt2tags": ('.t2t',),
     "bbcode": ('.bb',),
@@ -157,7 +157,7 @@ post_compilers = {
 # relative URL.
 #
 # If you don't need any of these, just set to []
-# REDIRECTIONS = []
+REDIRECTIONS = [("index.html", "/pages/index.html")]
 
 # Commands to execute to deploy. Can be anything, for example,
 # you may use rsync:
