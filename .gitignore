@@ -1,3 +1,5 @@
+.doit.db
+*.pyc
 *.swp
 layout/deploy
 deploy
