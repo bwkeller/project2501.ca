@@ -277,20 +277,20 @@ DISQUS_FORUM = False
 # MATHJAX_CONFIG = ""
 
 # If you are using the compile-ipynb plugin, just add this one:
-#MATHJAX_CONFIG = """
-#<script type="text/x-mathjax-config">
-#MathJax.Hub.Config({
-#    tex2jax: {
-#        inlineMath: [ ['$','$'], ["\\\(","\\\)"] ],
-#        displayMath: [ ['$$','$$'], ["\\\[","\\\]"] ]
-#    },
-#    displayAlign: 'left', // Change this to 'center' to center equations.
-#    "HTML-CSS": {
-#        styles: {'.MathJax_Display': {"margin": 0}}
-#    }
-#});
-#</script>
-#"""
+MATHJAX_CONFIG = """
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	tex2jax: {
+		inlineMath: [ ['$','$'], ["\\\(","\\\)"] ],
+		displayMath: [ ['$$','$$'], ["\\\[","\\\]"] ]
+	},
+	displayAlign: 'center', // Change this to 'center' to center equations.
+	"HTML-CSS": {
+		styles: {'.MathJax_Display': {"margin": 0}}
+	}
+});
+</script>
+"""
 
 # Enable Addthis social buttons?
 # Defaults to true
