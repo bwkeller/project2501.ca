@@ -89,7 +89,7 @@ SIDEBAR_LINKS = {
 #
 
 post_pages = (
-    ("posts/*.md", "posts", "post.tmpl", True),
+    ("research/*.md", "research", "post.tmpl", True),
     ("pages/*.md", "pages", "story.tmpl", False),
 )
 
@@ -128,14 +128,14 @@ post_compilers = {
 # output / TRANSLATION[lang] / TAG_PATH / index.html (list of tags)
 # output / TRANSLATION[lang] / TAG_PATH / tag.html (list of posts for a tag)
 # output / TRANSLATION[lang] / TAG_PATH / tag.xml (RSS feed for a tag)
-# TAG_PATH = "categories"
+TAG_PATH = "categories"
 
 # If TAG_PAGES_ARE_INDEXES is set to True, each tag's page will contain
 # the posts themselves. If set to False, it will be just a list of links.
-# TAG_PAGES_ARE_INDEXES = True
+TAG_PAGES_ARE_INDEXES = False
 
 # Final location is output / TRANSLATION[lang] / INDEX_PATH / index-*.html
-# INDEX_PATH = ""
+INDEX_PATH = "research"
 # Final locations for the archives are:
 # output / TRANSLATION[lang] / ARCHIVE_PATH / ARCHIVE_FILENAME
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / index.html
@@ -156,7 +156,7 @@ SLUG_TAG_PATH = True
 # relative URL.
 #
 # If you don't need any of these, just set to []
-REDIRECTIONS = [("index.html", "/pages/index.html")]
+REDIRECTIONS = [("index.html", "/pages/index.html"), ("research.html", "/categories/research.html")]
 
 # Commands to execute to deploy. Can be anything, for example,
 # you may use rsync:
@@ -264,7 +264,7 @@ CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
 # http://disqus.com, and set DISQUS_FORUM to the short name you selected.
 # If you want to disable comments, set it to False.
 # Default is "nikolademo", used by the demo sites
-# DISQUS_FORUM = "nikolademo"
+DISQUS_FORUM = False
 
 # Create index.html for story folders?
 # STORY_INDEX = False
