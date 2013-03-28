@@ -13,14 +13,14 @@ Single star test, run in a 20x20x20 kpc box. dESN= 1e51
 
 Part 1a: Energy Evolution
 -------------------------------------------------------------------------------
-[<img src="Research/action/energy_budget_all.png" width=800>](Research/action/energy_budget_all.png)
-[<img src="Research/action/energy_budget_internal.png" width=800>](Research/action/energy_budget_internal.png)
+[<img src="../Research/action/energy_budget_all.png" width=800>](../Research/action/energy_budget_all.png)
+[<img src="../Research/action/energy_budget_internal.png" width=800>](../Research/action/energy_budget_internal.png)
 
 Part 1b: Bubble Radius
 -------------------------------------------------------------------------------
 Edge of bubble is estimated using the maximum of
 $$ P \propto \rho(u+uNoncool)$$
-[<img src="Research/action/bubble_radius.png" width=800>](Research/action/bubble_radius.png)
+[<img src="../Research/action/bubble_radius.png" width=800>](../Research/action/bubble_radius.png)
 
 Item 2: Star Cluster with Cooling
 ===============================================================================
@@ -72,13 +72,13 @@ NOTE (JAN 13 2013): It appears I was mistaken about needing the lower value of d
 running with dESN=1e50 is useless, since the SN energy cools away effectively instantaneously
 (see figure below).
 I will now try running with dESN=1e51.  Hopefully I won't need to use a bigger star cluster.
-[<img src="Research/action/dESN_1e50.png" width=800>](Research/action/dESN_1e50.png)
+[<img src="../Research/action/dESN_1e50.png" width=800>](../Research/action/dESN_1e50.png)
 
 
 Part 2a: SN-Only FB 
 -------------------------------------------------------------------------------
-[<img src="Research/action/cooling_bubble_radius.png" width=800>](Research/action/cooling_bubble_radius.png)
-[<img src="Research/action/hot_gas.png" width=800>](Research/action/hot_gas.png)
+[<img src="../Research/action/cooling_bubble_radius.png" width=800>](../Research/action/cooling_bubble_radius.png)
+[<img src="../Research/action/hot_gas.png" width=800>](../Research/action/hot_gas.png)
 
 Part 2b: Pseudo-ESFB
 -------------------------------------------------------------------------------
@@ -86,5 +86,5 @@ For this test, I shifted the time of the IC forward 4Myr, dropped the density to
 and knocked the temperature up to 1e4K.  The mass resolution is thus 10x better for the
 same N from part a.
 
-[<img src="Research/action/ESF_cooling_bubble_radius.png" width=800>](Research/action/ESF_cooling_bubble_radius.png)
-[<img src="Research/action/ESF_hot_gas.png" width=800>](Research/action/ESF_hot_gas.png)
+[<img src="../Research/action/ESF_cooling_bubble_radius.png" width=800>](../Research/action/ESF_cooling_bubble_radius.png)
+[<img src="../Research/action/ESF_hot_gas.png" width=800>](../Research/action/ESF_hot_gas.png)

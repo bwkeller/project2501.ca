@@ -1,9 +1,12 @@
----
-title: Clustered Starformation?
----
+<!-- 
+.. title: Clustered Starformation
+.. slug: clustered_starformation
+.. date: 2013/03/28 17:51:58
+.. tags: research, mathjax
+.. link: 
+.. description: Using new feedback physics to look at the formation of clusters of stars
+-->
 
-{% extends "research.j2" %}
-{% block main %}
 Single Star 
 ===============================================================================
 
@@ -23,10 +26,10 @@ thermal diffusion
 Plots
 -------------------------------------------------------------------------------
 
-[<img src="Research/clustered_starformation/onestar_u.png" width=800>](Research/clustered_starformation/onestar_u.png)
-[<img src="Research/clustered_starformation/onestar_uNoncool.png" width=800>](Research/clustered_starformation/onestar_uNoncool.png)
-[<img src="Research/clustered_starformation/onestar_maxvel.png" width=800>](Research/clustered_starformation/onestar_maxvel.png)
-[<img src="Research/clustered_starformation/onestar_maxT.png" width=800>](Research/clustered_starformation/onestar_maxT.png)
+[<img src="../Research/clustered_starformation/onestar_u.png" width=800>](../Research/clustered_starformation/onestar_u.png)
+[<img src="../Research/clustered_starformation/onestar_uNoncool.png" width=800>](../Research/clustered_starformation/onestar_uNoncool.png)
+[<img src="../Research/clustered_starformation/onestar_maxvel.png" width=800>](../Research/clustered_starformation/onestar_maxvel.png)
+[<img src="../Research/clustered_starformation/onestar_maxT.png" width=800>](../Research/clustered_starformation/onestar_maxT.png)
 
 Turbulent Stratified Box
 ===============================================================================
@@ -37,7 +40,7 @@ I wanted to try and make tight clusters by dropping the starformation threshold
 down to $10^4 H/cc$, close to the value of compact cores within H2 clouds.
 
 
-## [Param File](Research/clustered_starformatio/turbulent.param)
+## [Param File](../Research/clustered_starformatio/turbulent.param)
 
 Plots and Comments
 -------------------------------------------------------------------------------
@@ -45,14 +48,12 @@ This run produced a total of 76 stars by 47 Myr, and because of the high-density
 gas, ground to a halt.  The actual starformation didn't kick off until $\approx 40 Myr$
 because of the high density threshold.
 
-[<img src="Research/clustered_starformation/turbulent_phase1.png" width=800>](Research/clustered_starformation/turbulent_phase1.png)
-[<img src="Research/clustered_starformation/turbulent_phase50.png" width=800>](Research/clustered_starformation/turbulent_phase50.png)
+[<img src="../Research/clustered_starformation/turbulent_phase1.png" width=800>](../Research/clustered_starformation/turbulent_phase1.png)
+[<img src="../Research/clustered_starformation/turbulent_phase50.png" width=800>](../Research/clustered_starformation/turbulent_phase50.png)
 
 When starformation did kick off, it did so in a very tight region of the simulation,
 and generated some reasonable high effective temperatures.  Increasing the ZAMS Time
 might let us get even higher.
 
-[<img src="Research/clustered_starformation/turbulent_cluster.png" width=800>](Research/clustered_starformation/turbulent_cluster.png)
-
-{% endblock main %}
+[<img src="../Research/clustered_starformation/turbulent_cluster.png" width=800>](../Research/clustered_starformation/turbulent_cluster.png)
 
