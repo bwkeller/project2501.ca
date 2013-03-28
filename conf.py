@@ -1,4 +1,3 @@
-
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 import time
@@ -10,7 +9,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "BW Keller"
-BLOG_TITLE = "Project 2501"
+BLOG_TITLE = "2501"
 # This is the main URL for your site. It will be used
 # in a prominent link
 SITE_URL = "www.project2501.ca"
@@ -148,7 +147,7 @@ post_compilers = {
 
 # Slug the Tag URL easier for users to type, special characters are
 # often removed or replaced as well.
-# SLUG_TAG_PATH = True
+SLUG_TAG_PATH = True
 
 # A list of redirection tuples, [("foo/from.html", "/bar/to.html")].
 #
@@ -222,7 +221,7 @@ REDIRECTIONS = [("index.html", "/pages/index.html")]
 # INDEXES_PAGES = ""  # If this is empty, the default is 'old posts page %d' translated
 
 # Name of the theme to use. Themes are located in themes/theme_name
-# THEME = 'site'
+THEME = 'p2501'
 
 # If you use 'site-reveal' theme you can select several subthemes
 # THEME_REVEAL_CONGIF_SUBTHEME = 'sky' # You can also use: beige/serif/simple/night/default 
@@ -295,7 +294,7 @@ CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
 
 # Enable Addthis social buttons?
 # Defaults to true
-# ADD_THIS_BUTTONS = True
+ADD_THIS_BUTTONS = False
 
 # Modify the number of Post per Index Page
 # Defaults to 10
