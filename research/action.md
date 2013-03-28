@@ -2,7 +2,7 @@
 .. title: Action Items from December 2012
 .. slug: action
 .. date: 2013/03/28 16:34:55
-.. tags: research
+.. tags: research, mathjax
 .. link: 
 .. description: Action Items on verifying uNoncool
 -->
