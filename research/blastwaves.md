@@ -141,7 +141,7 @@ timesteps, ~4.7Myr).
 ![mass](../Research/blastwaves/chevalier_1panel_mass.png)
 
 <a name="shellinstability">Blastwave "Fingers" (Shell Instability)</a>
--------------------
+----------------------------------------------------------------------
 James is concerned about the "fingers" that we are beginning to see in the images of
 the high-resolution runs.  I've made some movies that show what's going on at
 the shell/bubble/ISM interface:  _It is a Vishniac Instability!_  We can
@@ -155,6 +155,7 @@ velocity, and density.
 
 <a name="windmodel">Adiabatic Wind Models with Radiative Shells (a la Mac Low &
 McCray)</a>
+----------------------------------------------------------------------
 
 ####[Gasoline's SNe Energy Output]
 ![SNe](../Research/blastwaves/SNe_luminosity.png)
