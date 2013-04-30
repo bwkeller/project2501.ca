@@ -146,4 +146,15 @@ James is concerned about the "fingers" that we are beginning to see in the image
 the high-resolution runs.  I've made some movies that show what's going on at
 the shell/bubble/ISM interface:  _It is a Vishniac Instability!_  We can
 finally resolve them!  This obviously complicates the question of analyzing the
-results of these simulations, since the instabilities kick in around ~TIME
+results of these simulations, since the instabilities kick in < 1Myr.  The below
+videos show the growth of these instabilites in the shell in temperature,
+velocity, and density.
+####[Shell Instability (Temperature)](../Research/blastwaves/fingers_temp.mp4)
+####[Shell Instability (Density)](../Research/blastwaves/fingers_rho.mp4)
+####[Shell Instability (Radial Velocity)](../Research/blastwaves/fingers_vel.mp4)
+
+<a name="windmodel">Adiabatic Wind Models with Radiative Shells (a la Mac Low &
+McCray)</a>
+
+####[Gasoline's SNe Energy Output]
+![SNe](../Research/blastwaves/SNe_luminosity.png)
