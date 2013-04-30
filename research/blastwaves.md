@@ -46,7 +46,7 @@ blasts appeared to be interacting with the edges in the 0.5kpc sized boxes*
 * $128^3$ Particle Mass: $1.50 M_\odot$
 * $256^3$ Particle Mass: $0.187 M_\odot$
 
-Physically Convergent Runs
+<a name="convergence">Physically Convergent Runs</a>
 --------------------------
 The following runs had the energy injected such that the temperature profile of
 the initial conditions is identical.  Starting with the lowest ($16^3$)
@@ -97,6 +97,9 @@ so the $128^3$ resolution should be sufficient.
 ####total momentum
 ![totalmomentum](../Research/blastwaves/convergence_totalmomentum.png)
 
+####total momentum (Early)
+![totalmomentum](../Research/blastwaves/convergence_totalmomentum_early.png)
+
 ####total energy
 ![totalenergy](../Research/blastwaves/convergence_totalenergy.png)
 
@@ -134,11 +137,13 @@ timesteps, ~4.7Myr).
 ####[momentum](../Research/blastwaves/chevalier_movie_momentum.mp4)
 ![momentum](../Research/blastwaves/chevalier_1panel_momentum.png)
 
-Blastwave "Fingers"
+####[mass](../Research/blastwaves/chevalier_movie_mass.mp4)
+![mass](../Research/blastwaves/chevalier_1panel_mass.png)
+
+<a name="shellinstability">Blastwave "Fingers" (Shell Instability)</a>
 -------------------
-Below is a movie showing the various resolution blastwaves growing.  James
-is concerned about the "fingers" that we are beginning to see in the images of
+James is concerned about the "fingers" that we are beginning to see in the images of
 the high-resolution runs.  I've made some movies that show what's going on at
-the shell/bubble/ISM interface:  _It is Rayleigh-Taylor Instabilities!_  We can
+the shell/bubble/ISM interface:  _It is a Vishniac Instability!_  We can
 finally resolve them!  This obviously complicates the question of analyzing the
 results of these simulations, since the instabilities kick in around ~TIME
