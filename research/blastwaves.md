@@ -153,9 +153,20 @@ velocity, and density.
 ####[Shell Instability (Density)](../Research/blastwaves/fingers_rho.mp4)
 ####[Shell Instability (Radial Velocity)](../Research/blastwaves/fingers_vel.mp4)
 
-<a name="windmodel">Adiabatic Wind Models with Radiative Shells (a la Mac Low &
-McCray)</a>
+<a name="windmodel">Adiabatic Wind Models with Radiative Shells (a la Mac Low & McCray)</a>
 ----------------------------------------------------------------------
+In this model, 35/77 of the driving luminosity ($L_{38}$ below) ends up as thermal
+energy in the bubble, 27/77 is lost to shell formation, and 15/77 goes to
+kinetic energy in the shell.
 
-####[Gasoline's SNe Energy Output]
+The critical evolution equations for this model are:
+
+$$ r_{shell} = (267pc) L_{38}^{1/5}t_7^{3/5}n_0^{-1/5}$$
+$$ v_{shell} = (15.7km/s) L_{38}^{1/5}t_7^{-2/5}n_0^{-1/5}$$
+
+Which yields a momentum equation:
+
+$$ p_{shell} = (3.1*10^7 M_\odot km/s) L_{38}^{4/5}t_7^{7/5}n_0^{1/5}$$
+
+####Gasoline's SNe Energy Output
 ![SNe](../Research/blastwaves/SNe_luminosity.png)
