@@ -152,6 +152,7 @@ velocity, and density.
 ####[Shell Instability (Temperature)](../Research/blastwaves/fingers_temp.mp4)
 ####[Shell Instability (Density)](../Research/blastwaves/fingers_rho.mp4)
 ####[Shell Instability (Radial Velocity)](../Research/blastwaves/fingers_vel.mp4)
+####[Shell Instability (Column Density)](../Research/blastwaves/vishniac_column.mp4)
 
 <a name="windmodel">Adiabatic Wind Models with Radiative Shells (a la Mac Low & McCray)</a>
 ----------------------------------------------------------------------
