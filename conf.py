@@ -21,7 +21,7 @@ BLOG_AUTHOR = "BW Keller"  # (translatable)
 BLOG_TITLE = "2501"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "www.project2501.ca/"
+SITE_URL = "http://www.project2501.ca/"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 BLOG_EMAIL = "malzraa@gmail.com"
