@@ -21,10 +21,9 @@ BLOG_AUTHOR = "BW Keller"  # (translatable)
 BLOG_TITLE = "2501"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "www.project2501.ca"
+SITE_URL = "www.project2501.ca/"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "www.project2501.ca"
 BLOG_EMAIL = "malzraa@gmail.com"
 BLOG_DESCRIPTION = "BW Keller's Personal Site"  # (translatable)
 
@@ -93,9 +92,10 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 # (the same way you would do with a (translatable) setting.)
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archive"),
-        ("/categories/index.html", "Tags"),
-        ("/rss.xml", "RSS feed"),
+        ("/contact.html", "Contact"),
+        ("/cv.html", "Curriculum Vitae"),
+        ("/projects.html", "Projects"),
+        ('bespokeblog.wordpress.com', 'Blog (External)'),
     ),
 }
 
@@ -103,7 +103,7 @@ NAVIGATION_LINKS = {
 # WARNING: With this Nikola package, the bootstrap3 and bootstrap3-jinja
 #          themes must be installed separately. In order to do this,
 #          use: nikola install_bs3
-THEME = "bootstrap"
+THEME = "bootstrap_superhero"
 
 # Below this point, everything is optional
 
