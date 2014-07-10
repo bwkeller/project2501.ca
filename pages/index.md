@@ -34,17 +34,18 @@ I hope to be able to use it to produce really good galactic initial conditions
 for simulating mergers and AGNs.
 
 I'm a TA for PHYS 1BB3 (Modern Physics for Life Sciences) PHYS 3B(A/B)3
-(Electronics), and ASTRON 1B03 (Big Questions). If you are one of my students,
-feel free to email me if you'd like to ask me any questions, or set up office
-hours.  
+(Electronics), PHYS 2G03 (Scientific Computing) and ASTRON 1B03 (Big Questions).
+If you are one of my students, feel free to email me if you'd like to ask me any
+questions, or set up office hours.  
 
 ### A Few Things I Like
 * Tea 
 * Python 
 * Belgian Beer
-* github 
+* git(+hub) 
 * vim 
 * The Future
+
 ### Some Stuff I Dislike
 * Drudgery 
 * Black Licorice 
