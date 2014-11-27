@@ -17,7 +17,7 @@
 # Slide Decks
 * _Superbubble Feedback in Galaxy Formation_ @ CASCA 2014
   [PDF](http://www.physics.mcmaster.ca/~kellerbw/slides/CASCA2014.pdf)
-  [PPT](http://www.physics.mcmaster.ca/~kellerbw/slides/CASCA2014.pdf)
+  [PPT](http://www.physics.mcmaster.ca/~kellerbw/slides/CASCA2014.pptx)
 # Selected Videos
 <div class="row">
   <div class="col-xs-6 col-md-3">
