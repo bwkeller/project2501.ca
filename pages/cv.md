@@ -32,6 +32,14 @@ Physics 599 Independent Research Project, Fall 2010
 
 ## Publications
 ### Peer-Reviewed Publications
+* _Faint dwarfs as a test of DM models: WDM vs. CDM_
+    
+    Fabio Governato, Daniel Weisz, Andrew Pontzen, Sarah Loebman, Darren Reed,
+    Alyson M. Brooks, Peter Behroozi, Charlotte Christensen, Piero Madau, Lucio
+    Mayer, Sijing Shen, Matthew Walker, Thomas Quinn, Benjamin W. Keller, James
+    Wadsley 2014
+    [Monthly Notices of the Royal Astronomical Society](http://adsabs.harvard.edu/abs/2014arXiv1407.0022G)
+
 * _A Superbubble Feedback Model for Galaxy Simulations_ 
 
     B.W. Keller, J. Wadsley,S.M Benincasa, H.M.P Couchman 2014 
@@ -51,7 +59,7 @@ Physics 599 Independent Research Project, Fall 2010
 ### Contributed Talks
 * _Superbubble Feedback in Galaxy Simulations_
 
-    B.W. Keller, J. Wadsley,S.M Benincasa, H.M.P Couchman 
+    B.W. Keller, J. Wadsley, S.M Benincasa, H.M.P Couchman 
     [(Talk delivered at CASCA 2014 in Quebec, Canada)](http://casca2014.craq-astro.ca/seeabstract_en.php?id=59)
 
 * _Simulating Gas and Gravity in Galaxies with Gasoline_
@@ -64,12 +72,19 @@ Physics 599 Independent Research Project, Fall 2010
     Samuel J. George, Jeroen M. Stil, & Ben W. Keller 
     (Talk delivered by Dr. George at GALFACTS/POSSUM 2010 Workshop in Calgary, Canada)
 
-### Posters & Conference Proceedings
+### Conference Proceedings
+* _Stacking for Cosmic Magnetism with SKA Surveys_
+    
+    J.M. Stil, B.W. Keller 
+    [Advancing Astrophysics with the SKA, Proceedings of Science AASKA14](http://arxiv.org/abs/1501.00390)
+
 * _A Stacking Analysis of the Free-Free Opacity of Spiral Galaxy Disks_
 
     Jeroen M. Stil, T. Klassen, B.W. Keller 
-    [(Proceedings of the American Astronomical Society Meeting #223, 2014 in Washington DC, USA)](http://adsabs.harvard.edu/abs/2014AAS...22345303S)
+    [Proceedings of the American Astronomical Society Meeting #223, 2014 in Washington DC, USA](http://adsabs.harvard.edu/abs/2014AAS...22345303S)
 
+
+### Conference Posters
 * _Modeling Unresolved Pressure Reservoirs due to Stellar Feedback_
 
     Ben Keller, James Wadsley 
