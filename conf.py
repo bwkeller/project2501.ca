@@ -103,7 +103,7 @@ NAVIGATION_LINKS = {
 # WARNING: With this Nikola package, the bootstrap3 and bootstrap3-jinja
 #          themes must be installed separately. In order to do this,
 #          use: nikola install_bs3
-THEME = "bootstrap_superhero"
+THEME = "bootstrap_darkly"
 
 # Below this point, everything is optional
 
