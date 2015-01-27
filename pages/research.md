@@ -14,6 +14,8 @@
   [arXiv](http://arxiv.org/abs/1405.2625)
   [mnras](http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2014MNRAS.442.3013K&link_type=ARTICLE&db_key=AST&high=)
   [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1405.2625)
+* _Cosmological Galaxy Evolution With Superbubble Feedback I_
+  [in prep](http://www.physics.mcmaster.ca/~kellerbw/MUGS2_paper.pdf)
 # Slide Decks
 * _Superbubble Feedback in Galaxy Formation_ @ CASCA 2014
   [PDF](http://www.physics.mcmaster.ca/~kellerbw/slides/CASCA2014.pdf)
