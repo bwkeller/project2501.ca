@@ -32,77 +32,91 @@ Physics 599 Independent Research Project, Fall 2010
 
 ## Publications
 ### Peer-Reviewed Publications
+* _NIHAO project I: Reproducing the inefficiency of galaxy formation across
+  cosmic time with a large sample of cosmological hydrodynamical simulations_
+
+    Liang Wang, Aaron A. Dutton, Gregory S. Stinson, Andrea V. Macci&ograve;, Camilla
+    Penzo, Xi Kang, __Ben W. Keller__, James Wadsley
+    [submitted to Monthly Notices of the Royal Astronomical Society](http://adsabs.harvard.edu/abs/2015arXiv150304818W)
+
+* _NIHAO project II: Halo shape, phase-space density and velocity distribution
+  of dark matter in galaxy formation simulations_
+  cosmic time with a large sample of cosmological hydrodynamical simulations_
+
+    Iryna Butsky, Andrea V. Macci&ograve;, Aaron A. Dutton, Liang Wang, Greg S.
+    Stinson, Camilla Penzo, Xi Kang, __Ben W. Keller__, James Wadsley
+    [submitted to Monthly Notices of the Royal Astronomical Society](http://adsabs.harvard.edu/abs/2015arXiv150304814B)
 * _Faint dwarfs as a test of DM models: WDM vs. CDM_
     
     Fabio Governato, Daniel Weisz, Andrew Pontzen, Sarah Loebman, Darren Reed,
     Alyson M. Brooks, Peter Behroozi, Charlotte Christensen, Piero Madau, Lucio
-    Mayer, Sijing Shen, Matthew Walker, Thomas Quinn, Benjamin W. Keller, James
-    Wadsley 2014
-    [Monthly Notices of the Royal Astronomical Society](http://adsabs.harvard.edu/abs/2014arXiv1407.0022G)
+    Mayer, Sijing Shen, Matthew Walker, Thomas Quinn, __Benjamin W. Keller__, James
+    Wadsley 2015
+    [Monthly Notices of the Royal Astronomical Society](http://dx.doi.org/10.1093/mnras/stu2720)
 
 * _A Superbubble Feedback Model for Galaxy Simulations_ 
 
-    B.W. Keller, J. Wadsley,S.M Benincasa, H.M.P Couchman 2014 
+    __B.W. Keller__, J. Wadsley,S.M Benincasa, H.M.P Couchman 2014 
     [Monthly Notices of the Royal Astronomical Society](http://dx.doi.org/10.1093/mnras/stu1058)
 
 * _Degree of Polarization and Source Counts of Faint Radio Sources from Stacking
   Polarized Intensity_ 
   
-    J.M. Stil, B.W. Keller, S.J. George, A.R. Taylor 2014
+    J.M. Stil, __B.W. Keller__, S.J. George, A.R. Taylor 2014
     [The Astrophysical Journal](http://dx.doi.org/10.1088/0004-637X/787/2/99)
 
 * _Detection Thresholds and Bias Correction in Polarized Intensity_ 
 
-    Samuel J. George, Jeroen M. Stil, Ben W. Keller 2011 
+    Samuel J. George, Jeroen M. Stil, __Ben W. Keller__ 2011 
     [Publications of The Astronomical Society of Australia]( http://dx.doi.org/10.1071/AS11027)
 
 ### Contributed Talks
 * _Superbubble Feedback in Galaxy Simulations_
 
-    B.W. Keller, J. Wadsley, S.M Benincasa, H.M.P Couchman 
+    __B.W. Keller__, J. Wadsley, S.M Benincasa, H.M.P Couchman 
     [(Talk delivered at CASCA 2014 in Quebec, Canada)](http://casca2014.craq-astro.ca/seeabstract_en.php?id=59)
 
 * _Simulating Gas and Gravity in Galaxies with Gasoline_
 
-    Ben Keller, James Wadsley, Hugh Couchman 
+    __Ben Keller__, James Wadsley, Hugh Couchman 
     (Talk Delivered at SHARCNet Research Day 2013 in Oakville, Canada)
     
 * _Polarized Source Counts and Stacking_ 
 
-    Samuel J. George, Jeroen M. Stil, & Ben W. Keller 
+    Samuel J. George, Jeroen M. Stil, & __Ben W. Keller__
     (Talk delivered by Dr. George at GALFACTS/POSSUM 2010 Workshop in Calgary, Canada)
 
 ### Conference Proceedings
 * _Stacking for Cosmic Magnetism with SKA Surveys_
     
-    J.M. Stil, B.W. Keller 
+    J.M. Stil, __B.W. Keller__
     [Advancing Astrophysics with the SKA, Proceedings of Science AASKA14](http://arxiv.org/abs/1501.00390)
 
 * _A Stacking Analysis of the Free-Free Opacity of Spiral Galaxy Disks_
 
-    Jeroen M. Stil, T. Klassen, B.W. Keller 
+    Jeroen M. Stil, T. Klassen, __B.W. Keller__
     [Proceedings of the American Astronomical Society Meeting #223, 2014 in Washington DC, USA](http://adsabs.harvard.edu/abs/2014AAS...22345303S)
 
 
 ### Conference Posters
 * _Modeling Unresolved Pressure Reservoirs due to Stellar Feedback_
 
-    Ben Keller, James Wadsley 
+    __Ben Keller__, James Wadsley 
     (Poster presented at Mind The Gap 2013 in Cambridge, UK)
 
 * _Star Formation Regulation in a Simulated Galactic Disk_ 
 
-    Ben Keller, James Wadsley, Chris Gatopolous, Hugh Couchman
+    __Ben Keller__, James Wadsley, Chris Gatopolous, Hugh Couchman
     (Poster presented at CASCA 2012 in Calgary, Canada)
     
 * _Probing Polarization in Faint Radio Sources Using Median Stacking_ 
 
-    Ben W. Keller, Jeroen M. Stil,Samuel J. George, A. R. Taylor 
+    __Ben W. Keller__, Jeroen M. Stil,Samuel J. George, A. R. Taylor 
     (Poster presented at CASCA 2011 in London, Canada)
 
 * _Why Are Faint Radio Sources More Highly Polarized_ 
 
-    Jeroen M. Stil, Ben W. Keller, Samuel J. George, & Russ Taylor 
+    Jeroen M. Stil, __Ben W. Keller__, Samuel J. George, & Russ Taylor 
     (Poster presented by Dr. Stil at SKA 2010 Conference in Manchester, UK)
 
 ## Public Outreach
