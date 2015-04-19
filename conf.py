@@ -361,6 +361,7 @@ DEPLOY_COMMANDS = ['rsync -rav output/* kellerbw@physwww.physics.mcmaster.ca:~/p
 # USE_FILENAME_AS_TITLE = True
 # EXTRA_IMAGE_EXTENSIONS = []
 #
+IMAGE_FOLDERS = {'images':'assets/img/'}
 # If set to False, it will sort by filename instead. Defaults to True
 # GALLERY_SORT_BY_DATE = True
 
