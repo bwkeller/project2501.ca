@@ -19,7 +19,7 @@
 Physics 599 Independent Research Project, Fall 2010
 
 ## Awards
-* Ontario Graduate Scholarship, Ontario Provincial Government, 2012 & 2014
+* Ontario Graduate Scholarship, Ontario Provincial Government, 2012, 2014, 2015
 * Eugene G. Bolotkin Scholarship, McMaster University Graduate Prestige Scholarship, 2012 (Declined)
 * Student Peer Assistance Undergraduate Bursaries, University of Calgary, 2010
 * Jason Lang Scholarship, Alberta Education, 2009 & 2010
@@ -46,6 +46,7 @@ Physics 599 Independent Research Project, Fall 2010
     Iryna Butsky, Andrea V. Macci&ograve;, Aaron A. Dutton, Liang Wang, Greg S.
     Stinson, Camilla Penzo, Xi Kang, __Ben W. Keller__, James Wadsley
     [submitted to Monthly Notices of the Royal Astronomical Society](http://adsabs.harvard.edu/abs/2015arXiv150304814B)
+
 * _Faint dwarfs as a test of DM models: WDM vs. CDM_
     
     Fabio Governato, Daniel Weisz, Andrew Pontzen, Sarah Loebman, Darren Reed,
