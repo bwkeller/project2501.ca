@@ -95,7 +95,7 @@ NAVIGATION_LINKS = {
         ("/contact.html", "Contact"),
         ("/cv.html", "Curriculum Vitae"),
         ("/projects.html", "Projects"),
-        ('bespokeblog.wordpress.com', 'Blog (External)'),
+        ('/blog', 'Blog'),
     ),
 }
 
@@ -161,7 +161,9 @@ TIMEZONE = "EDT"
 # just independent HTML pages.
 #
 
-POSTS = []
+POSTS = (
+    ("posts/*.rst", "posts", "post.tmpl"),
+)
 PAGES = (
     ("pages/*.md", "", "story.tmpl"),
 )
