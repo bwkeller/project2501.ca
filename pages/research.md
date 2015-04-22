@@ -8,7 +8,7 @@
 .. type: text
 -->
 
-# [IPython Notebooks](http://imp.mcmaster.ca/~kellerbw/notes.html)
+# [IPython Notebooks](/notes.html)
 # Papers
 * _A Superbubble Feedback Model for Galaxy Simulations_
   [arXiv](http://arxiv.org/abs/1405.2625)
