@@ -10,13 +10,17 @@
 
 # [IPython Notebooks](/notes.html)
 # Papers
+* _Cosmological Galaxy Evolution With Superbubble Feedback I_
+  [arXiv](http://arxiv.org/abs/1505.06268)
+  [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1505.06268)
 * _A Superbubble Feedback Model for Galaxy Simulations_
   [arXiv](http://arxiv.org/abs/1405.2625)
   [mnras](http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2014MNRAS.442.3013K&link_type=ARTICLE&db_key=AST&high=)
-  [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1405.2625)
-* _Cosmological Galaxy Evolution With Superbubble Feedback I_
-  [in prep](http://www.physics.mcmaster.ca/~kellerbw/MUGS2_paper.pdf)
+  [ADS](http://adsabs.harvard.edu/abs/2014MNRAS.442.3013K)
 # Slide Decks
+* _Cosmological Galaxy Evolution with Superbubble Feedback_ @ CASCA 2015
+  [PDF](http://www.physics.mcmaster.ca/~kellerbw/slides/CASCA2015.pdf)
+  [PPT](http://www.physics.mcmaster.ca/~kellerbw/slides/CASCA2015.pptx)
 * _Superbubble Feedback in Galaxy Formation_ @ CASCA 2014
   [PDF](http://www.physics.mcmaster.ca/~kellerbw/slides/CASCA2014.pdf)
   [PPT](http://www.physics.mcmaster.ca/~kellerbw/slides/CASCA2014.pptx)

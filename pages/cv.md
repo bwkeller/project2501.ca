@@ -19,7 +19,8 @@
 Physics 599 Independent Research Project, Fall 2010
 
 ## Awards
-* Ontario Graduate Scholarship, Ontario Provincial Government, 2012, 2014, 2015
+* Clifton W. Sherman Graduate Scholarship, 2015
+* Ontario Graduate Scholarship, Ontario Provincial Government, 2012, 2014
 * Eugene G. Bolotkin Scholarship, McMaster University Graduate Prestige Scholarship, 2012 (Declined)
 * Student Peer Assistance Undergraduate Bursaries, University of Calgary, 2010
 * Jason Lang Scholarship, Alberta Education, 2009 & 2010
@@ -72,6 +73,11 @@ Physics 599 Independent Research Project, Fall 2010
     [Publications of The Astronomical Society of Australia]( http://dx.doi.org/10.1071/AS11027)
 
 ### Contributed Talks
+* _Superbubble Driven Outflows in Cosmological Galaxy Evolution_
+
+    __B.W. Keller__, J. Wadsley, H.M.P Couchman 
+    [(Talk delivered at CASCA 2015 in Hamilton, Canada)](http://www.physics.mcmaster.ca/casca2015/?page_id=117)
+
 * _Superbubble Feedback in Galaxy Simulations_
 
     __B.W. Keller__, J. Wadsley, S.M Benincasa, H.M.P Couchman 
