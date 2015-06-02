@@ -166,7 +166,7 @@ TIMEZONE = "EDT"
 #
 
 POSTS = (
-    ("posts/*.rst", "posts", "post.tmpl"),
+    ("posts/*.md", "posts", "post.tmpl"),
 )
 PAGES = (
     ("pages/*.md", "", "story.tmpl"),
