@@ -19,7 +19,7 @@
 Physics 599 Independent Research Project, Fall 2010
 
 ## Awards
-* Clifton W. Sherman Graduate Scholarship, 2015
+* Clifton W. Sherman Graduate Scholarship, Ontario Provincial Government 2015
 * Ontario Graduate Scholarship, Ontario Provincial Government, 2012, 2014
 * Eugene G. Bolotkin Scholarship, McMaster University Graduate Prestige Scholarship, 2012 (Declined)
 * Student Peer Assistance Undergraduate Bursaries, University of Calgary, 2010
@@ -33,6 +33,12 @@ Physics 599 Independent Research Project, Fall 2010
 
 ## Publications
 ### Peer-Reviewed Publications
+* _Cosmological Galaxy Evolution with Superbubble Feedback I: Realistic Galaxies
+  with Moderate Feedback_
+
+    __B.W. Keller__, J. Wadsley, H.M.P. Couchman 
+    [submitted to Monthly Notices of the Royal Astronomical Society](http://adsabs.harvard.edu/abs/2015arXiv150506268K)
+
 * _NIHAO project I: Reproducing the inefficiency of galaxy formation across
   cosmic time with a large sample of cosmological hydrodynamical simulations_
 
@@ -126,6 +132,12 @@ Physics 599 Independent Research Project, Fall 2010
     Jeroen M. Stil, __Ben W. Keller__, Samuel J. George, & Russ Taylor 
     (Poster presented by Dr. Stil at SKA 2010 Conference in Manchester, UK)
 
+## Professional Societies
+### Society Membership
+* __CASCA__ 2011-2015
+### Committee Membership
+* __CASCA Graduate Student Committe__ _Chair_ 2015
+* __CASCA Graduate Student Committe__ _McMaster University Representative_ 2014-2015
 ## Public Outreach
 ### Talks & Presentations
 * _Building a Stack for Fun and Profit_ talk delivered Rothney Astrophysical Observatory, 2010
@@ -140,7 +152,7 @@ Physics 599 Independent Research Project, Fall 2010
 * Director of [Calgary Protospace](http://protospace.ca/), 2010-2011
 
 ### Additional Experience
-* Student co-director of [Origins Institute 3D
+* Coordinator of [Origins Institute 3D
   Theatre](http://origins.mcmaster.ca/3D-theatre/) 2014-present
 * Presenter at the [W.J. McCallion
   Planetarium](http://www.physics.mcmaster.ca/planetarium/) 2011-present
