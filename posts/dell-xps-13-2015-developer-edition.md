@@ -20,28 +20,7 @@ Even after getting Ubuntu set up, there is a horrendous bug in the touchpad
 driver that makes the cursor jerk wildly around every few minutes.  I tried to
 solve this issue by upgrading the OS to 14.10, but that had the unfortunate
 effect of nuking the networking and leaving the machine in an unbootable state!
-YAY!  Its' been a while since I did any distro hopping, so I'm going to use this
-as a chance to distro hop a bit.
-
-# Distributions
-- [Elementary OS Freya](#elementary)
-- [Debian Jessie w/ KDE](#debian-kde)
-- [Debian Jessie w/ GNOME](#debian-gnome)
-- [Debian Jessie w/ XFCE](#debian-xfce)
-
-<div id='elementary'/>
-<h2>Elementary OS Freya</h2>
-Straight out of the gate, garbled text on the installer!  Guess I won't be
-trying this...  Apparently this is a problem for Broadwell machines.
-
-<div id='debian-kde'></div>
-<h2>Debian Jessie (KDE edition)</h2>
-Installer works.  Needs manual installation of wireless driver.
-
-<div id='debian-gnome'/>
-<h2>Debian Jessie (GNOME edition)</h2>
-Installer mysteriously crashes.
-
-<div id='debian-xfce'/>
-<h2>Debian Jessie (XFCE edition)</h2>
-Installer works.  Needs manual installation of wireless driver.
+YAY!  Finally, doing a fresh install of 15.04 actually got everything working.
+With this, the thing is actually pretty sweet.  The HW is amazing, from the
+screen to the battery to the keyboard.  After a day of frustration, I'm pretty
+satisfied.
