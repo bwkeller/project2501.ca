@@ -33,18 +33,26 @@ Physics 599 Independent Research Project, Fall 2010
 
 ## Publications
 ### Peer-Reviewed Publications
+* _NIHAO IV: Core creation and destruction in dark matter density profiles across
+  cosmic time_
+    Edouard Tollet, Andrea V. Macciò, Aaron A. Dutton, Greg S. Stinson, Liang Wang,
+    Camilla Penzo, Thales A. Gutcke, Tobias Buck, Xi Kang, Chris Brook, 
+    Arianna Di Cintio, __Ben W. Keller__, James Wadsley
+    [submitted to Monthly Notices of the Royal Astronomical
+    Society](http://adsabs.harvard.edu/abs/2015arXiv150703590T)
+
+* _NIHAO III: The Constant Disc Mass Conspiracy_
+
+     G.S. Stinson, A.A. Dutton, L. Wang, A.V. Macciò, J. Herpich,
+    J.D. Bradford, T.R. Quinn, J. Wadsley, __B. Keller__
+    [submitted to Monthly Notices of the Royal Astronomical
+    Society](http://adsabs.harvard.edu/abs/2015arXiv150608785S)
+
 * _Cosmological Galaxy Evolution with Superbubble Feedback I: Realistic Galaxies
   with Moderate Feedback_
 
     __B.W. Keller__, J. Wadsley, H.M.P. Couchman 
     [submitted to Monthly Notices of the Royal Astronomical Society](http://adsabs.harvard.edu/abs/2015arXiv150506268K)
-
-* _NIHAO project I: Reproducing the inefficiency of galaxy formation across
-  cosmic time with a large sample of cosmological hydrodynamical simulations_
-
-    Liang Wang, Aaron A. Dutton, Gregory S. Stinson, Andrea V. Macci&ograve;, Camilla
-    Penzo, Xi Kang, __Ben W. Keller__, James Wadsley
-    [submitted to Monthly Notices of the Royal Astronomical Society](http://adsabs.harvard.edu/abs/2015arXiv150304818W)
 
 * _NIHAO project II: Halo shape, phase-space density and velocity distribution
   of dark matter in galaxy formation simulations_
@@ -53,6 +61,13 @@ Physics 599 Independent Research Project, Fall 2010
     Iryna Butsky, Andrea V. Macci&ograve;, Aaron A. Dutton, Liang Wang, Greg S.
     Stinson, Camilla Penzo, Xi Kang, __Ben W. Keller__, James Wadsley
     [submitted to Monthly Notices of the Royal Astronomical Society](http://adsabs.harvard.edu/abs/2015arXiv150304814B)
+
+* _NIHAO project I: Reproducing the inefficiency of galaxy formation across
+  cosmic time with a large sample of cosmological hydrodynamical simulations_
+
+    Liang Wang, Aaron A. Dutton, Gregory S. Stinson, Andrea V. Macci&ograve;, Camilla
+    Penzo, Xi Kang, __Ben W. Keller__, James Wadsley
+    [submitted to Monthly Notices of the Royal Astronomical Society](http://adsabs.harvard.edu/abs/2015arXiv150304818W)
 
 * _Faint dwarfs as a test of DM models: WDM vs. CDM_
     
