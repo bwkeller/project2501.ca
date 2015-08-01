@@ -182,7 +182,8 @@ Physics 599 Independent Research Project, Fall 2010
 * Javascript+HTML
 
 ### Software Contributions
-* [astLib](http://astlib.sf.net) Python Astronomy Modules (patch accepted into version 0.3.2)
-* [yt](http://yt-project.org) Volumetric Data Analysis Toolkit
+* [astLib](http://astlib.sf.net) Python Astronomy Modules 
+* [yt](http://yt-project.org) Volumetric Data Analysis Toolkit (Tipsy Frontend
+  liason)
 * [matplotlib](http://matplotlib.org) Python 2D Plotting Library
 * [pynbody](https://code.google.com/p/pynbody/) N-Body/SPH analysis for Python

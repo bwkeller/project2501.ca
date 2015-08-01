@@ -94,7 +94,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/contact.html", "Contact"),
         ("/cv.html", "Curriculum Vitae"),
-        ("/projects.html", "Projects"),
+        ("/research.html", "Research"),
         ('/blog', 'Blog'),
         ((('/archive.html', 'Archives'),
         ('/rss.xml', 'RSS'),
