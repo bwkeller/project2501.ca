@@ -23,4 +23,14 @@ effect of nuking the networking and leaving the machine in an unbootable state!
 YAY!  Finally, doing a fresh install of 15.04 actually got everything working.
 With this, the thing is actually pretty sweet.  The HW is amazing, from the
 screen to the battery to the keyboard.  After a day of frustration, I'm pretty
-satisfied.
+satisfied.  I'll be posting updates to my experiences here.
+
+<!-- TEASER_END -->
+
+##Update 20/07/2015
+I still was occasionally finding keyboard or mouse events repeating themselves.
+After updating to BIOS version A04, this has completely gone away.  Great.
+
+##Update 01/08/2015
+I had been noticing some unusual intermittent kernel panics, almost always
+during suspend, but once or twice just during use.
