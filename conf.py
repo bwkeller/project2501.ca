@@ -234,6 +234,7 @@ COMPILERS = {
 # output / TRANSLATION[lang] / TAG_PATH / tag.html (list of posts for a tag)
 # output / TRANSLATION[lang] / TAG_PATH / tag.xml (RSS feed for a tag)
 # TAG_PATH = "categories"
+WRITE_TAG_CLOUD=False
 
 # If TAG_PAGES_ARE_INDEXES is set to True, each tag's page will contain
 # the posts themselves. If set to False, it will be just a list of links.
@@ -286,7 +287,7 @@ REDIRECTIONS = []
 # And then do a backup, or run `nikola ping` from the `ping`
 # plugin (`nikola install_plugin ping`).
 # To do manual deployment, set it to []
-DEPLOY_COMMANDS = ['rsync -rav output/* kellerbw@physserv.physics.mcmaster.ca:/net/physwww/1/home/kellerbw/public_html']
+DEPLOY_COMMANDS = {'default':'rsync -rav output/* kellerbw@physserv.physics.mcmaster.ca:/net/physwww/1/home/kellerbw/public_html'}
 
 # For user.github.io/organization.github.io pages, the DEPLOY branch
 # MUST be 'master', and 'gh-pages' for other repositories.
