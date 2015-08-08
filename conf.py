@@ -22,6 +22,7 @@ BLOG_TITLE = "2501"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
 SITE_URL = "http://www.project2501.ca/"
+BASE_URL = "http://www.project2501.ca/"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 BLOG_EMAIL = "malzraa@gmail.com"
@@ -94,7 +95,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/contact.html", "Contact"),
         ("/cv.html", "Curriculum Vitae"),
-        ("/research.html", "Research"),
+        ("/public-research.html", "Research"),
         ('/blog', 'Blog'),
         ((('/archive.html', 'Archives'),
         ('/rss.xml', 'RSS'),
@@ -107,7 +108,7 @@ NAVIGATION_LINKS = {
 # WARNING: With this Nikola package, the bootstrap3 and bootstrap3-jinja
 #          themes must be installed separately. In order to do this,
 #          use: nikola install_bs3
-THEME = "bootstrap_darkly"
+THEME = "2501"
 
 # Below this point, everything is optional
 
