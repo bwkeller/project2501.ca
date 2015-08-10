@@ -8,7 +8,7 @@
 -->
 
 ## Education
-* PhD Physics and Astronomy, McMaster University 2011-present (expected 2016)
+* PhD Physics and Astronomy, McMaster University 2011-present (expected 2017)
 * BSc Physics with Computer Science Minor, University of Calgary 2011
 
 ## Research Experience
@@ -52,7 +52,7 @@ Physics 599 Independent Research Project, Fall 2010
   with Moderate Feedback_
 
     __B.W. Keller__, J. Wadsley, H.M.P. Couchman 
-    [submitted to Monthly Notices of the Royal Astronomical Society](http://adsabs.harvard.edu/abs/2015arXiv150506268K)
+    [Accepted to Monthly Notices of the Royal Astronomical Society](http://adsabs.harvard.edu/abs/2015arXiv150506268K)
 
 * _NIHAO project II: Halo shape, phase-space density and velocity distribution
   of dark matter in galaxy formation simulations_
@@ -127,6 +127,12 @@ Physics 599 Independent Research Project, Fall 2010
 
 
 ### Conference Posters
+* _Scultiping Disk Galaxies with Superbubble Powered Outflows_
+
+    __Ben Keller__, James Wadsley, Hugh Couchman
+    (Poster presented at A 3D View of Galaxies and their Evolution in
+    Heidelberg, Germany)
+
 * _Modeling Unresolved Pressure Reservoirs due to Stellar Feedback_
 
     __Ben Keller__, James Wadsley 
@@ -178,12 +184,12 @@ Physics 599 Independent Research Project, Fall 2010
 * Perl
 * Python
 * Bash
+* Haskell
 * Java
 * Javascript+HTML
 
 ### Software Contributions
 * [astLib](http://astlib.sf.net) Python Astronomy Modules 
-* [yt](http://yt-project.org) Volumetric Data Analysis Toolkit (Tipsy Frontend
-  liason)
+* [yt](http://yt-project.org) Volumetric Data Analysis Toolkit (Project Member)
 * [matplotlib](http://matplotlib.org) Python 2D Plotting Library
 * [pynbody](https://code.google.com/p/pynbody/) N-Body/SPH analysis for Python
