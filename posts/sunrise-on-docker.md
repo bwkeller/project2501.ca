@@ -2,8 +2,8 @@
 .. title: Sunrise on Docker
 .. slug: sunrise-on-docker
 .. date: 2015-08-01 11:42:19 UTC-04:00
-.. tags: 
-.. category: 
+.. tags: docker,sunrise,linux
+.. category: research
 .. link: 
 .. description: 
 .. type: text

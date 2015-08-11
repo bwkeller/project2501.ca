@@ -2,8 +2,8 @@
 .. title: Dell XPS 13 2015 Developer Edition
 .. slug: dell-xps-13-2015-developer-edition
 .. date: 2015-05-28 13:24:57 UTC-04:00
-.. tags: 
-.. category: 
+.. tags: hardware,xps13,linux
+.. category: misc-tech
 .. link: 
 .. description: 
 .. type: text
@@ -34,3 +34,8 @@ After updating to BIOS version A04, this has completely gone away.  Great.
 ##Update 01/08/2015
 I had been noticing some unusual intermittent kernel panics, almost always
 during suspend, but once or twice just during use.
+
+##Update 11/08/2015
+Applying the patch suggested
+[here](https://bugs.launchpad.net/ubuntu/+source/bcmwl/+bug/1415880) appears to
+have completely solved the kernel panic problem.
