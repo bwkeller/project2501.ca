@@ -25,25 +25,25 @@
   [PPT](http://www.physics.mcmaster.ca/~kellerbw/slides/CASCA2014.pptx)
 # Selected Videos
 <div class="row">
-  <div class="col-xs-6 col-md-3">
+  <div class="col-xs-6 col-md-3" align="center">
     <a href="http://www.physics.mcmaster.ca/~kellerbw/videos/vishniac_instability.mp4" class="thumbnail">
       <img src="http://www.physics.mcmaster.ca/~kellerbw/videos/vishniac_instability.png" alt="vishniac Instability">
       Vishniac Instability in a Superbubble
     </a>
   </div>
-  <div class="col-xs-6 col-md-3">
+  <div class="col-xs-6 col-md-3" align="center">
     <a href="http://www.physics.mcmaster.ca/~kellerbw/videos/isolated_MW.mp4" class="thumbnail">
       <img src="http://www.physics.mcmaster.ca/~kellerbw/videos/isolated_MW.png" alt="Isolated Milky Way">
       Isolated Milky Way Galaxy Evolution
     </a>
   </div>
-  <div class="col-xs-6 col-md-3">
+  <div class="col-xs-6 col-md-3" align="center">
     <a href="http://www.physics.mcmaster.ca/~kellerbw/videos/MW_stars.mp4" class="thumbnail">
       <img src="http://www.physics.mcmaster.ca/~kellerbw/videos/MW_stars.png" alt="Milky Way Stars">
       Milky Way Simulated Observation
     </a>
   </div>
-  <div class="col-xs-6 col-md-3">
+  <div class="col-xs-6 col-md-3" align="center">
     <a href="http://www.physics.mcmaster.ca/~kellerbw/videos/dwarf_SB.mp4" class="thumbnail">
       <img src="http://www.physics.mcmaster.ca/~kellerbw/videos/dwarf_SB.png" alt="Dwarf Starburst">
       Gas Outflows in a Dwarf Starburst
