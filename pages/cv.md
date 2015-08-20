@@ -67,7 +67,7 @@ Physics 599 Independent Research Project, Fall 2010
 
     Liang Wang, Aaron A. Dutton, Gregory S. Stinson, Andrea V. Macci&ograve;, Camilla
     Penzo, Xi Kang, __Ben W. Keller__, James Wadsley
-    [submitted to Monthly Notices of the Royal Astronomical Society](http://adsabs.harvard.edu/abs/2015arXiv150304818W)
+    [Accepted to Monthly Notices of the Royal Astronomical Society](http://adsabs.harvard.edu/abs/2015arXiv150304818W)
 
 * _Faint dwarfs as a test of DM models: WDM vs. CDM_
     
