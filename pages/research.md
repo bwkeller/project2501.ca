@@ -18,6 +18,11 @@
   [mnras](http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2014MNRAS.442.3013K&link_type=ARTICLE&db_key=AST&high=)
   [ADS](http://adsabs.harvard.edu/abs/2014MNRAS.442.3013K)
 # Slide Decks
+* _Superbubble Driven Galactic Winds: Realistic Galaxies from Moderate Feedback
+  Energy_ @ Santa Cruz Galaxy Workshop 2015
+  [PDF](http://www.physics.mcmaster.ca/~kellerbw/slides/SCGalWorkshop2015.pdf)
+  [ODP](http://www.physics.mcmaster.ca/~kellerbw/slides/SCGalWorkshop2015.odp)
+  [VID](https://youtu.be/2xero2RcMXE)
 * _Cosmological Galaxy Evolution with Superbubble Feedback_ @ CASCA 2015
   [PDF](http://www.physics.mcmaster.ca/~kellerbw/slides/CASCA2015.pdf)
   [PPT](http://www.physics.mcmaster.ca/~kellerbw/slides/CASCA2015.pptx)
