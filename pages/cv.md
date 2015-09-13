@@ -45,14 +45,14 @@ Physics 599 Independent Research Project, Fall 2010
 
      G.S. Stinson, A.A. Dutton, L. Wang, A.V. Macciò, J. Herpich,
     J.D. Bradford, T.R. Quinn, J. Wadsley, __B. Keller__
-    [submitted to Monthly Notices of the Royal Astronomical
+    [Accepted to Monthly Notices of the Royal Astronomical
     Society](http://adsabs.harvard.edu/abs/2015arXiv150608785S)
 
 * _Cosmological Galaxy Evolution with Superbubble Feedback I: Realistic Galaxies
   with Moderate Feedback_
 
-    __B.W. Keller__, J. Wadsley, H.M.P. Couchman 
-    [Accepted to Monthly Notices of the Royal Astronomical Society](http://adsabs.harvard.edu/abs/2015arXiv150506268K)
+    __B.W. Keller__, J. Wadsley, H.M.P. Couchman 2015
+    [Monthly Notices of the Royal Astronomical Society](http://dx.doi.org/10.1093/mnras/stv1789)
 
 * _NIHAO project II: Halo shape, phase-space density and velocity distribution
   of dark matter in galaxy formation simulations_
