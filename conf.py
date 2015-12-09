@@ -96,6 +96,7 @@ NAVIGATION_LINKS = {
         ("/contact.html", "Contact"),
         ("/cv.html", "Curriculum Vitae"),
         ("/public-research.html", "Research"),
+        ("/projects.html", "Projects"),
         ('/blog', 'Blog'),
         ((('/archive.html', 'Archives'),
         ('/rss.xml', 'RSS'),
