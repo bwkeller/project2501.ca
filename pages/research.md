@@ -12,10 +12,11 @@
 # Papers
 * _Cosmological Galaxy Evolution With Superbubble Feedback I_
   [arXiv](http://arxiv.org/abs/1505.06268)
+  [mnras](http://mnras.oxfordjournals.org/content/453/4/3499.abstract)
   [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1505.06268)
 * _A Superbubble Feedback Model for Galaxy Simulations_
   [arXiv](http://arxiv.org/abs/1405.2625)
-  [mnras](http://adsabs.harvard.edu/cgi-bin/nph-data_query?bibcode=2014MNRAS.442.3013K&link_type=ARTICLE&db_key=AST&high=)
+  [mnras](http://mnras.oxfordjournals.org/content/442/4/3013.abstract)
   [ADS](http://adsabs.harvard.edu/abs/2014MNRAS.442.3013K)
 # Slide Decks
 * _Superbubble Driven Galactic Winds: Realistic Galaxies from Moderate Feedback
