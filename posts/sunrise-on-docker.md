@@ -73,7 +73,7 @@ be necessary).
 Now we can start our new image and futz around, while still being able to revert
 back here and not need to re-install all of the tools from apt.
 
-    docker run run -t -i username/sunrise:free-base /bin/bash
+    docker run -t -i username/sunrise:free-base /bin/bash
 
 ##Installing icc
 Unfortunately, sunrise will not compile with any free compilers.  We will need
