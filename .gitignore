@@ -1,5 +1,7 @@
 .doit.db
 cache/
+cv_latex/cv*
+cv_latex/body.tex
 *.pyc
 *.swp
 output

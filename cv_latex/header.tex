@@ -1,0 +1,68 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2008 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Uncomment the following lines to use the Palatino font.  Remove the
+% [osf] bit if you don't like the old style figures.
+%
+% \usepackage[T1]{fontenc}
+% \usepackage[osf]{mathpazo}
+
+\def\tightlist{}
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {Ben Keller},
+  pdfkeywords = {physics astrophysics computer science},
+  pdftitle = {Ben Keller: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{textheight=9in, textwidth=6.5in}
+
+% Customize section headings
+\usepackage{sectsty}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+{\huge\bf Ben W. Keller}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.5\textwidth}
+    \#202 80 King William Street\\
+  Hamilton, ON L8R0A1
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+  Phone: (403) 465-3576 \\
+  Email: \href{mailto:kellerbw@mcmaster.ca}{\tt kellerbw@mcmaster.ca} \\
+  Website: \href{www.project2501.ca}{project2501.ca}
+\end{minipage}
+
+
