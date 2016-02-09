@@ -19,8 +19,8 @@
 Physics 599 Independent Research Project, Fall 2010
 
 ## Awards {-}
-* Clifton W. Sherman Graduate Scholarship, Ontario Provincial Government 2015
-* Ontario Graduate Scholarship, Ontario Provincial Government, 2012, 2014
+* Clifton W. Sherman Graduate Scholarship, Ontario Provincial Government, 2015
+* Ontario Graduate Scholarship, Ontario Provincial Government, 2012 & 2014
 * Eugene G. Bolotkin Scholarship, McMaster University Graduate Prestige Scholarship, 2012 (Declined)
 * Student Peer Assistance Undergraduate Bursaries, University of Calgary, 2010
 * Jason Lang Scholarship, Alberta Education, 2009 & 2010
@@ -38,16 +38,14 @@ Physics 599 Independent Research Project, Fall 2010
   cosmic time_
     Edouard Tollet, Andrea V. Macciò, Aaron A. Dutton, Greg S. Stinson, Liang Wang,
     Camilla Penzo, Thales A. Gutcke, Tobias Buck, Xi Kang, Chris Brook, 
-    Arianna Di Cintio, __Ben W. Keller__, James Wadsley
-    [submitted to Monthly Notices of the Royal Astronomical
-    Society](http://adsabs.harvard.edu/abs/2015arXiv150703590T)
+    Arianna Di Cintio, __Ben W. Keller__, James Wadsley 2016
+    [Monthly Notices of the Royal Astronomical Society](http://dx.doi.org/10.1093/mnras/stv2856)
 
 * _NIHAO III: The Constant Disc Mass Conspiracy_
 
      G.S. Stinson, A.A. Dutton, L. Wang, A.V. Macciò, J. Herpich,
-    J.D. Bradford, T.R. Quinn, J. Wadsley, __B. Keller__
-    [Accepted to Monthly Notices of the Royal Astronomical
-    Society](http://adsabs.harvard.edu/abs/2015arXiv150608785S)
+    J.D. Bradford, T.R. Quinn, J. Wadsley, __B. Keller__ 2015
+    [Monthly Notices of the Royal Astronomical Society](http://dx.doi.org/10.1093/mnras/stv1985)
 
 * _Cosmological Galaxy Evolution with Superbubble Feedback I: Realistic Galaxies
   with Moderate Feedback_
@@ -57,7 +55,6 @@ Physics 599 Independent Research Project, Fall 2010
 
 * _NIHAO project II: Halo shape, phase-space density and velocity distribution
   of dark matter in galaxy formation simulations_
-  cosmic time with a large sample of cosmological hydrodynamical simulations_
 
     Iryna Butsky, Andrea V. Macci&ograve;, Aaron A. Dutton, Liang Wang, Greg S.
     Stinson, Camilla Penzo, Xi Kang, __Ben W. Keller__, James Wadsley
@@ -67,8 +64,9 @@ Physics 599 Independent Research Project, Fall 2010
   cosmic time with a large sample of cosmological hydrodynamical simulations_
 
     Liang Wang, Aaron A. Dutton, Gregory S. Stinson, Andrea V. Macci&ograve;, Camilla
-    Penzo, Xi Kang, __Ben W. Keller__, James Wadsley
-    [Accepted to Monthly Notices of the Royal Astronomical Society](http://adsabs.harvard.edu/abs/2015arXiv150304818W)
+    Penzo, Xi Kang, __Ben W. Keller__, James Wadsley 2015
+    [Monthly Notices of the Royal Astronomical Society](http://dx.doi.org/10.1093/mnras/stv1937)
+
 
 * _Faint dwarfs as a test of DM models: WDM vs. CDM_
     
@@ -95,6 +93,11 @@ Physics 599 Independent Research Project, Fall 2010
     [Publications of The Astronomical Society of Australia]( http://dx.doi.org/10.1071/AS11027)
 
 ### Contributed Talks {-}
+* _Superbubble Driven Galactic Winds: Realistic Galaxies from moderate Feedback
+  Energy_
+    __B.W. Keller__, J. Wadsley
+    [(Talk delivered at Galaxy Workshop 2015 in Santa Cruz, USA)](http://hipacc.ucsc.edu/GalaxyWorkshop2015.html)
+
 * _Superbubble Driven Outflows in Cosmological Galaxy Evolution_
 
     __B.W. Keller__, J. Wadsley, H.M.P Couchman 
