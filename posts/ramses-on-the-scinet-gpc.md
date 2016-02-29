@@ -2,7 +2,7 @@
 .. title: RAMSES on the Scinet GPC
 .. slug: ramses-on-the-scinet-gpc
 .. date: 2015-10-13 14:23:04 UTC-04:00
-.. tags: linux,ramses,guides
+.. tags: linux,ramses,guides,simulations
 .. category: research
 .. link: 
 .. description: 
