@@ -1,0 +1,128 @@
+<!--
+.. title: Symplectic Integrators
+.. slug: symplectic-integrators
+.. date: 2016-03-04 13:30:31 UTC-05:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+-->
+
+<h3>Leapfrog (2nd Order Symplectic)</h3>
+<div class="row">
+    <div class="col-md-4" id="planetview_leapfrog">
+    </div>
+    <div class="col-md-4" id="energy_leapfrog">
+    </div>
+    <div class="col-md-4" id="momentum_leapfrog">
+    </div>
+</div>
+<h3>Runge-Kutta (4th Order Nonsymplectic)</h3>
+<div class="row">
+    <div class="col-md-4" id="planetview_rk4">
+    </div>
+    <div class="col-md-4" id="energy_rk4">
+    </div>
+    <div class="col-md-4" id="momentum_rk4">
+    </div>
+</div>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script>
+    var iters = 400;
+    iternum = 0;
+    var dt = 0.001;
+    var width = 256;
+    var lf = {
+        "x":0,
+        "y":1,
+        "vx":0.8,
+        "vy":0,
+    };
+    var rk = {
+        "x":0,
+        "y":1,
+        "vx":0.8,
+        "vy":0,
+    };
+    var ev_lf = d3.select("#energy_leapfrog")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", width);
+    var pv_lf = d3.select("#planetview_leapfrog")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", width)
+        .append("g")
+        .attr("transform", "translate(" + width / 2 + "," + width / 2 + ")");
+    var pv_rk = d3.select("#planetview_rk4")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", width)
+        .append("g")
+        .attr("transform", "translate(" + width / 2 + "," + width / 2 + ")");
+    var star_rk = pv_rk.append("circle")
+        .attr("r", 5);
+    var star_lf = pv_lf.append("circle")
+        .attr("r", 5);
+    function leapfrog() {
+        //Kick
+        lf.vx -= 0.5*dt*lf.x/Math.pow(Math.sqrt(lf.x*lf.x+lf.y*lf.y), 3);
+        lf.vy -= 0.5*dt*lf.y/Math.pow(Math.sqrt(lf.x*lf.x+lf.y*lf.y), 3);
+        //Drift
+        lf.x += dt*lf.vx;
+        lf.y += dt*lf.vy;
+        //Kick
+        lf.vx -= 0.5*dt*lf.x/Math.pow(Math.sqrt(lf.x*lf.x+lf.y*lf.y), 3);
+        lf.vy -= 0.5*dt*lf.y/Math.pow(Math.sqrt(lf.x*lf.x+lf.y*lf.y), 3);
+    }
+    function rk4() {
+        var k1x = dt*rk.vx;
+        var k1y = dt*rk.vy;
+        var k1vx = -dt*rk.x/Math.pow(Math.sqrt(rk.x*rk.x+rk.y*rk.y), 3);
+        var k1vy = -dt*rk.y/Math.pow(Math.sqrt(rk.x*rk.x+rk.y*rk.y), 3);
+        var k2x = dt*(rk.vx+0.5*k1vx);
+        var k2y = dt*(rk.vy+0.5*k1vy);
+        var k2vx = -dt*(rk.x+0.5*k1x)/Math.pow(Math.sqrt(Math.pow(rk.x+0.5*k1x, 2)+Math.pow(rk.y+0.5*k1y, 2)), 3);
+        var k2vy = -dt*(rk.y+0.5*k1y)/Math.pow(Math.sqrt(Math.pow(rk.x+0.5*k1x, 2)+Math.pow(rk.y+0.5*k1y, 2)), 3);
+        var k3x = dt*(rk.vx+0.5*k2vx);
+        var k3y = dt*(rk.vy+0.5*k2vy);
+        var k3vx = -dt*(rk.x+0.5*k2x)/Math.pow(Math.sqrt(Math.pow(rk.x+0.5*k2x, 2)+Math.pow(rk.y+0.5*k2y, 2)), 3);
+        var k3vy = -dt*(rk.y+0.5*k2y)/Math.pow(Math.sqrt(Math.pow(rk.x+0.5*k2x, 2)+Math.pow(rk.y+0.5*k2y, 2)), 3);
+        var k4x = dt*(rk.vx+k3vx);
+        var k4y = dt*(rk.vy+k3vy);
+        var k4vx = -dt*(rk.x+k3x)/Math.pow(Math.sqrt(Math.pow(rk.x+k2x, 2)+Math.pow(rk.y+k2y, 2)), 3);
+        var k4vy = -dt*(rk.y+k3y)/Math.pow(Math.sqrt(Math.pow(rk.x+k2x, 2)+Math.pow(rk.y+k2y, 2)), 3);
+        rk.x += 1./6*(k1x+k2x+k3x+k4x);
+        rk.y += 1./6*(k1y+k2y+k3y+k4y);
+        rk.vx += 1./6*(k1vx+k2vx+k3vx+k4vx);
+        rk.vy += 1./6*(k1vy+k2vy+k3vy+k4vy);
+    }
+    function energy(p) {
+        return p.vx*p.vx+p.vy*p.vy;
+    }
+    function animate() {
+        if (iters < iternum) {
+            return;
+        }
+        iternum +=1;
+        var i = 0;
+        while (i<500) {
+            leapfrog();
+            rk4();
+            i++;
+        }
+        pv_lf.append("circle")
+            .attr("r", 1)
+            .transition()
+            .duration(20)
+            .attr("transform", "translate("+0.3*width*lf.x+","+0.3*width*lf.y+")");
+        pv_rk.append("circle")
+            .attr("r", 1)
+            .transition()
+            .duration(20)
+            .attr("transform", "translate("+0.3*width*rk.x+","+0.3*width*rk.y+")")
+            .each("end", animate);
+    };
+    animate();
+</script>

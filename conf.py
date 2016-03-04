@@ -174,6 +174,8 @@ POSTS = (
 )
 PAGES = (
     ("pages/*.md", "", "story.tmpl"),
+    ("pages/*.html", "", "story.tmpl"),
+    ("pages/*.ipynb", "", "story.tmpl"),
 )
 
 # One or more folders containing files to be copied as-is into the output.
