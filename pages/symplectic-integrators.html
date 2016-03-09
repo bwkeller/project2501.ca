@@ -2,14 +2,60 @@
 .. title: Symplectic Integrators
 .. slug: symplectic-integrators
 .. date: 2016-03-04 13:30:31 UTC-05:00
-.. tags: 
+.. tags: mathjax
 .. category: 
 .. link: 
 .. description: 
 .. type: text
 -->
 
-<h3>Leapfrog (2nd Order Symplectic)</h3>
+Integration of differential equations is maybe the most important tool that
+numericists have in their toolkit.  For astrophysicists, these are almost
+always the equations of motion for some collection of objects (gas, stars,
+planets, dark matter particles, etc.).  These problems have well-defined
+Hamiltonians, and a number of conserved quantitities (energy, angular/linear
+momentum, etc.).  A kind of numerical integrator that automatically
+conserves these quantities is called a <a
+href=https://en.wikipedia.org/wiki/Symplectic_integrator>Symplectic
+Integrator</a>. Since a Hamiltonian system has time-reversal symmetry, we should 
+also be able to run the integrator in reverse and reproduce the initial conditions to
+within the errors from floating point machine precision.
+<br>
+Even a low-order symplectic integrator will conserve
+the phase-space volume of a problem, and as such, never introduce or remove
+energy systematically.  Below is a demo of how a second order symplectic
+integrator can outperform a fourth order non-symplectic integrator.
+Beware, of course, that if your Hamiltonian is not formulated to conserve a
+quantity, a symplectic integrator will not guarantee that quantity is
+conserved (in this case, the phase angle of our orbit).
+
+<h3>A Simple Orbital Problem</h3>
+A particle orbiting another in a central inverse-square potential has the following Hamiltonian,
+for the position vector $p$ and momentum vector $q$.
+$$H = -\frac{1}{q}+\frac{p^2}{2}$$
+
+Solving Hamilton's equations gives these equations of motion:
+$$\dot p = {|q|}^{-2}$$
+$$\dot q = p$$
+These are the equations of motion for a planet orbiting a star, for example.  Let's take a look at what
+happens when we throw an elliptical orbit set of initial conditions at two different integrators, and see
+how they conserve energy and angular momentum.
+<p>
+<div class="row">
+    <div class="col-md-6"><h3>Leapfrog (2nd Order Symplectic)</h3></div>
+    <div class="col-md-4"><button type="buton" class="btn btn-default" id="gobutton"> Start Integration </button></div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h4>Position</h4>
+    </div>
+    <div class="col-md-4">
+        <h4>Energy Error</h4>
+    </div>
+    <div class="col-md-4">
+        <h4>Angular Momentum Error</h4>
+    </div>
+</div>
 <div class="row">
     <div class="col-md-4" id="planetview_leapfrog">
     </div>
@@ -20,6 +66,17 @@
 </div>
 <h3>Runge-Kutta (4th Order Nonsymplectic)</h3>
 <div class="row">
+    <div class="col-md-4">
+        <h4>Position</h4>
+    </div>
+    <div class="col-md-4">
+        <h4>Energy Error</h4>
+    </div>
+    <div class="col-md-4">
+        <h4>Angular Momentum Error</h4>
+    </div>
+</div>
+<div class="row">
     <div class="col-md-4" id="planetview_rk4">
     </div>
     <div class="col-md-4" id="energy_rk4">
@@ -29,42 +86,179 @@
 </div>
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script>
-    var iters = 400;
-    iternum = 0;
+    var avgwindow = 25
+    var tot = 0;
+    var subiter = 45;
+    var iternum = 0;
     var dt = 0.001;
+    var iters = 150/(dt*subiter*avgwindow);
     var width = 256;
+    var pad = 30;
     var lf = {
         "x":0,
         "y":1,
-        "vx":0.8,
+        "vx":0.2,
         "vy":0,
     };
     var rk = {
         "x":0,
         "y":1,
-        "vx":0.8,
+        "vx":0.2,
         "vy":0,
     };
+    var y_scale = d3.scale.linear()
+        .domain([-0.5,1.01])
+        .range([0,width]);
+    var x_scale = d3.scale.linear()
+        .domain([-1.01,0.5])
+        .range([0,width]);
+    var timeScale = d3.scale.linear()
+        .domain([0, dt*subiter*iters*avgwindow])
+        .range([pad,width]);
+    var energyScale = d3.scale.linear()
+        .domain([-10, 4])
+        .range([width-pad,pad]);
+    var angmomScale = d3.scale.linear()
+        .domain([-10, 10])
+        .range([width-pad,pad]);
+    var rkangmomScale = d3.scale.linear()
+        .domain([-10,1])
+        .range([width-pad,pad]);
+        
+    var timeAxis = d3.svg.axis()
+        .scale(timeScale)
+        .orient("bottom")
+        .ticks("10");
+    var energyAxis = d3.svg.axis()
+        .scale(energyScale)
+        .orient("left")
+        .ticks("10");
+    var angmomAxis = d3.svg.axis()
+        .scale(angmomScale)
+        .orient("left")
+        .ticks("10");
+    var rkangmomAxis = d3.svg.axis()
+        .scale(rkangmomScale)
+        .orient("left")
+        .ticks("5");
     var ev_lf = d3.select("#energy_leapfrog")
         .append("svg")
         .attr("width", width)
         .attr("height", width);
+    ev_lf.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate(0,"+(width-pad)+")")
+        .call(timeAxis);
+    ev_lf.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate("+pad+",0)")
+        .call(energyAxis);
+    ev_lf.append("text")
+        .attr("class", "x label")
+        .attr("x", width/2)
+        .attr("y", width)
+        .text("time");
+    ev_lf.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("class", "y label")
+        .attr("y", -2)
+        .attr("x", 0-(width/2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .text("\u0394 E");
+    var ev_rk = d3.select("#energy_rk4")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", width);
+    ev_rk.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate(0,"+(width-pad)+")")
+        .call(timeAxis);
+    ev_rk.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate("+pad+",0)")
+        .call(energyAxis);
+    ev_rk.append("text")
+        .attr("class", "x label")
+        .attr("x", width/2)
+        .attr("y", width)
+        .text("time");
+    ev_rk.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("class", "y label")
+        .attr("y", -2)
+        .attr("x", 0-(width/2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .text("\u0394 E");
+    var mom_lf = d3.select("#momentum_leapfrog")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", width);
+    mom_lf.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate("+pad+",0)")
+        .call(angmomAxis);
+    mom_lf.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate(0,"+(width-pad)+")")
+        .call(timeAxis);
+    mom_lf.append("text")
+        .attr("class", "x label")
+        .attr("x", width/2)
+        .attr("y", width)
+        .text("time");
+    mom_lf.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("class", "y label")
+        .attr("y", -2)
+        .attr("x", 0-(width/2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .text("\u0394 L / 1e-15");
+    var mom_rk = d3.select("#momentum_rk4")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", width);
+    mom_rk.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate("+pad+",0)")
+        .call(rkangmomAxis);
+    mom_rk.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate(0,"+(width-pad)+")")
+        .call(timeAxis);
+    mom_rk.append("text")
+        .attr("class", "x label")
+        .attr("x", width/2)
+        .attr("y", width)
+        .text("time");
+    mom_rk.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("class", "y label")
+        .attr("y", -2)
+        .attr("x", 0-(width/2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .text("\u0394 L / 1e-3");
     var pv_lf = d3.select("#planetview_leapfrog")
         .append("svg")
         .attr("width", width)
-        .attr("height", width)
-        .append("g")
-        .attr("transform", "translate(" + width / 2 + "," + width / 2 + ")");
+        .attr("height", width);
     var pv_rk = d3.select("#planetview_rk4")
         .append("svg")
         .attr("width", width)
-        .attr("height", width)
-        .append("g")
-        .attr("transform", "translate(" + width / 2 + "," + width / 2 + ")");
+        .attr("height", width);
     var star_rk = pv_rk.append("circle")
-        .attr("r", 5);
+        .attr("r", 2)
+        .attr("fill", "red")
+        .attr("cx", x_scale(0))
+        .attr("cy", y_scale(0));
     var star_lf = pv_lf.append("circle")
-        .attr("r", 5);
+        .attr("r", 2)
+        .attr("fill", "red")
+        .attr("cx", x_scale(0))
+        .attr("cy", y_scale(0));
     function leapfrog() {
         //Kick
         lf.vx -= 0.5*dt*lf.x/Math.pow(Math.sqrt(lf.x*lf.x+lf.y*lf.y), 3);
@@ -93,36 +287,89 @@
         var k4y = dt*(rk.vy+k3vy);
         var k4vx = -dt*(rk.x+k3x)/Math.pow(Math.sqrt(Math.pow(rk.x+k2x, 2)+Math.pow(rk.y+k2y, 2)), 3);
         var k4vy = -dt*(rk.y+k3y)/Math.pow(Math.sqrt(Math.pow(rk.x+k2x, 2)+Math.pow(rk.y+k2y, 2)), 3);
-        rk.x += 1./6*(k1x+k2x+k3x+k4x);
-        rk.y += 1./6*(k1y+k2y+k3y+k4y);
-        rk.vx += 1./6*(k1vx+k2vx+k3vx+k4vx);
-        rk.vy += 1./6*(k1vy+k2vy+k3vy+k4vy);
+        rk.x += 1./6*(k1x+2*k2x+2*k3x+k4x);
+        rk.y += 1./6*(k1y+2*k2y+2*k3y+k4y);
+        rk.vx += 1./6*(k1vx+2*k2vx+2*k3vx+k4vx);
+        rk.vy += 1./6*(k1vy+2*k2vy+2*k3vy+k4vy);
     }
     function energy(p) {
-        return p.vx*p.vx+p.vy*p.vy;
+        return 0.5*p.vx*p.vx+p.vy*p.vy-1.0/Math.sqrt(p.x*p.x+p.y*p.y);
+    }
+    function angmom(p) {
+        return p.x*p.vy-p.y*p.vx;
     }
     function animate() {
         if (iters < iternum) {
             return;
         }
         iternum +=1;
-        var i = 0;
-        while (i<500) {
-            leapfrog();
-            rk4();
-            i++;
+        var color="black";
+        if (tot == 150) {
+            color='blue';
         }
-        pv_lf.append("circle")
+        var mean_energy_lf = 0;
+        var mean_energy_rk = 0;
+        var mean_angmom_lf = 0;
+        var mean_angmom_rk = 0;
+        for(var j=0;j<avgwindow;j++) {
+            var i = 0;
+            while (i<subiter) {
+                leapfrog();
+                rk4();
+                i++;
+            }
+            mean_energy_lf += energy(lf);
+            mean_energy_rk += energy(rk);
+            mean_angmom_lf += angmom(lf);
+            mean_angmom_rk += angmom(rk);
+            pv_lf.append("circle")
+                .attr("r", 1)
+                .attr("fill", color)
+                .attr("cx", x_scale(lf.x))
+                .attr("cy", y_scale(lf.y));
+            pv_rk.append("circle")
+                .attr("r", 1)
+                .attr("fill", color)
+                .attr("cx", x_scale(rk.x))
+                .attr("cy", y_scale(rk.y));
+        }
+        ev_lf.append("circle")
             .attr("r", 1)
-            .transition()
-            .duration(20)
-            .attr("transform", "translate("+0.3*width*lf.x+","+0.3*width*lf.y+")");
-        pv_rk.append("circle")
+            .attr("fill", color)
+            .attr("cx", timeScale(tot+avgwindow*dt*subiter*iternum))
+            .attr("cy", energyScale(0.98+mean_energy_lf/avgwindow));
+        ev_rk.append("circle")
             .attr("r", 1)
-            .transition()
-            .duration(20)
-            .attr("transform", "translate("+0.3*width*rk.x+","+0.3*width*rk.y+")")
-            .each("end", animate);
+            .attr("fill", color)
+            .attr("cx", timeScale(tot+avgwindow*dt*subiter*iternum))
+            .attr("cy", energyScale(0.98+mean_energy_rk/avgwindow));
+        mom_lf.append("circle")
+            .attr("r", 1)
+            .attr("fill", color)
+            .attr("cx", timeScale(tot+avgwindow*dt*subiter*iternum))
+            .attr("cy", angmomScale(1e15*-(0.2+angmom(lf))));
+        mom_rk.append("circle")
+            .attr("r", 1)
+            .attr("fill", color)
+            .attr("cx", timeScale(tot+avgwindow*dt*subiter*iternum))
+            .attr("cy", rkangmomScale(1e3*-(0.2+angmom(rk))));
+        setTimeout(animate,10);
     };
-    animate();
+    d3.selectAll(".axis")
+        .attr("style", "fill:none;stroke:black;shape-rendering:crispEdges;font-size:10px;");
+    function startanimate() {
+        if (iternum >= iters) {
+            document.querySelector("#gobutton").innerHTML = "Start Integration";
+            iternum = 0;
+            dt *= -1.0;
+            tot += 150;
+        }
+        else {
+            tot = 0;
+            document.querySelector("#gobutton").innerHTML = "Reverse Integration";
+        }
+        animate();
+    }
+    document.querySelector("#gobutton").addEventListener("click", startanimate);
+
 </script>

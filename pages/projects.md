@@ -16,9 +16,15 @@ and JavaScript.  My github repo for these projects is
 [here](https://github.com/bwkeller/web_experiments).
 <div class="row">
   <div class="col-xs-6 col-md-3">
-    <a href="http://www.physics.mcmaster.ca/~kellerbw/galaxy_smash.html" class="thumbnail">
-      <img src="http://www.physics.mcmaster.ca/~kellerbw/smash/galaxy_smash.png" alt="WebGL Galaxy">
+    <a href="galaxy_smash.html" class="thumbnail">
+      <img src="assets/img/galaxy_smash.png" alt="WebGL Galaxy">
       WebGL galaxy with three.js
+    </a>
+  </div>
+  <div class="col-xs-6 col-md-3">
+    <a href="symplectic-integrators.html" class="thumbnail">
+      <img src="assets/img/symplectic.png" alt="Symplectic Integrators">
+      Symplectic Integrators with d3.js 
     </a>
   </div>
 </div>
