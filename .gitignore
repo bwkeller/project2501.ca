@@ -6,3 +6,4 @@ cv_latex/body.tex
 *.swp
 output
 *.DS_Store
+state_data.json
