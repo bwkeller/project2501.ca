@@ -11,7 +11,7 @@
 # [IPython Notebooks](/notes.html)
 # Papers
 * _Cosmological Galaxy Evolution With Superbubble Feedback II_
-  [in prep](http://www.physics.mcmaster.ca/~kellerbw/paper.pdf)
+  [arXiv](http://arxiv.org/abs/1604.08244)
 * _Cosmological Galaxy Evolution With Superbubble Feedback I_
   [arXiv](http://arxiv.org/abs/1505.06268)
   [mnras](http://mnras.oxfordjournals.org/content/453/4/3499.abstract)
