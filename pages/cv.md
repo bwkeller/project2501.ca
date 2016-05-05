@@ -34,8 +34,16 @@ Physics 599 Independent Research Project, Fall 2010
 ## Publications {-}
 
 ### Peer-Reviewed Publications {-}
+* _Cosmological  Galaxy Evolution with Superbuble Feedback II: The Limits of
+  Supernovae_
+
+    __B.W. Keller__, J. Wadsley, H.M.P Couchman 
+    [submitted to Monthly Notices of the Royal Astronomical
+    Society](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1604.08244)
+
 * _NIHAO IV: Core creation and destruction in dark matter density profiles across
   cosmic time_
+
     Edouard Tollet, Andrea V. Macciò, Aaron A. Dutton, Greg S. Stinson, Liang Wang,
     Camilla Penzo, Thales A. Gutcke, Tobias Buck, Xi Kang, Chris Brook, 
     Arianna Di Cintio, __Ben W. Keller__, James Wadsley 2016
