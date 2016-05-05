@@ -35,8 +35,8 @@ stellar feedback (supernovae, stellar winds, etc.) , and it's impact on galaxies
 and their surrounding intergalactic medium.  My publications can be found under
 my <a href="cv.html">Curriculum Vitae</a></p>
 
-<p>I'm a TA for PHYS 1BB3 (Modern Physics for Life Sciences) PHYS 3B(A/B)3
-(Electronics), PHYS 2G03 (Scientific Computing), ASTRON 1F03 (Intro Astronomy),
+<p>I'm a TA for PHYS 1AO3 (Introductory Physics) PHYS 3B(A/B)3
+(Electronics), PHYS (2/4)G03 (Scientific Computing I/II), ASTRON 1F03 (Intro Astronomy),
 and ASTRON 1B03 (Big Questions).  If you are one of my students, feel free to
 email me if you'd like to ask me any questions, or set up office hours.</p>
 
