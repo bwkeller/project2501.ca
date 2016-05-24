@@ -100,6 +100,11 @@ Physics 599 Independent Research Project, Fall 2010
     Samuel J. George, Jeroen M. Stil, __Ben W. Keller__ 2011 
     [Publications of The Astronomical Society of Australia]( http://dx.doi.org/10.1071/AS11027)
 
+### Invited Talks {-}
+* _SN-driven superbubbles in cosmological galaxy evolution: outflows,
+  regulation, and the limits of stellar feedback_ 
+    __B.W. Keller__, J. Wadsley
+    [(Talk delivered at Computational Galaxy Formation 2016 in Ringberg, Germany)](http://girichidis.de/ringberg2016/)
 ### Contributed Talks {-}
 * _Superbubble Driven Galactic Winds: Realistic Galaxies from moderate Feedback
   Energy_
@@ -203,7 +208,7 @@ Physics 599 Independent Research Project, Fall 2010
 * Bash
 * Haskell
 * Java
-* Javascript+HTML
+* Javascript+HTML/CSS
 
 ### Software Contributions {-}
 * [astLib](http://astlib.sf.net) Python Astronomy Modules 
