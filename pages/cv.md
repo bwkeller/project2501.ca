@@ -101,6 +101,10 @@ Physics 599 Independent Research Project, Fall 2010
     [Publications of The Astronomical Society of Australia]( http://dx.doi.org/10.1071/AS11027)
 
 ### Invited Talks {-}
+* _Superbubble Regulation of Baryons in Cosmological Galaxy Formation_
+    __B.W. Keller__, J. Wadsley
+    [(Talk delivered at Computing the Universe 2016 in Oaxaca, Mexico)](https://www.birs.ca/events/2016/5-day-workshops/16w5163)
+
 * _SN-driven superbubbles in cosmological galaxy evolution: outflows,
   regulation, and the limits of stellar feedback_ 
     __B.W. Keller__, J. Wadsley
