@@ -39,3 +39,6 @@ during suspend, but once or twice just during use.
 Applying the patch suggested
 [here](https://bugs.launchpad.net/ubuntu/+source/bcmwl/+bug/1415880) appears to
 have completely solved the kernel panic problem.
+
+##Update 13/06/2016
+Upgraded to 16.04, and now essentially everything works.  Woohoo!
