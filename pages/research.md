@@ -22,10 +22,11 @@
   [mnras](http://mnras.oxfordjournals.org/content/442/4/3013.abstract)
   [ADS](http://adsabs.harvard.edu/abs/2014MNRAS.442.3013K)
 # Slide Decks
-* _SN-driven superbubbles in cosmological galaxy evolution: outflows,
-  regulation, and the limits of stellar feedback_ @ Computational Galaxy Formation 2016
-  [PDF](http://www.physics.mcmaster.ca/~kellerbw/slides/Ringberg2016.pdf)
-  [ODP](http://www.physics.mcmaster.ca/~kellerbw/slides/Ringberg2016.odp)
+* _Superbubble Regulation of Baryons in Cosmological Galaxy Formation_
+  @ Computing the Universe 2016
+  [PDF](http://www.physics.mcmaster.ca/~kellerbw/slides/Oaxaca2016.pdf)
+  [ODP](http://www.physics.mcmaster.ca/~kellerbw/slides/Oaxaca2016.odp)
+  [VID](http://www.birs.ca/events/2016/5-day-workshops/16w5163/videos/watch/201606061107-Keller.html)
 * _Superbubble Driven Galactic Winds: Realistic Galaxies from Moderate Feedback
   Energy_ @ Santa Cruz Galaxy Workshop 2015
   [PDF](http://www.physics.mcmaster.ca/~kellerbw/slides/SCGalWorkshop2015.pdf)
