@@ -54,6 +54,11 @@ You can use the Anaconda package manager, conda, to install yt:
 conda install yt
 ```
 
+You can also use yt's handy install script, that will install anaconda along
+with yt.  You can get that here:
+
+[https://bitbucket.org/yt_analysis/yt/raw/yt/doc/install_script.sh](https://bitbucket.org/yt_analysis/yt/raw/yt/doc/install_script.sh)
+
 ## Install [pynbody](http://pynbody.github.io/pynbody)
 
 Pynbody will need to get installed by hand.  The instructions to do so are here:
@@ -63,6 +68,15 @@ In brief, what you need to do once you have Anaconda is simply:
 ```
 pip install pynbody
 ```
+
+# Fetch some data
+
+For some of the workshop, we will be working with example simulation outputs.
+You should probably download these ahead of time, just in case the internet
+is slow/flaky, and in case you would like to play around with the data before
+the workshop.  You can download some example data here:
+
+[https://github.com/pynbody/pynbody/releases/download/pynbody-0.2/testdata_april_2013.tar.gz](tipsy format)
 
 ## Conclusion
 If all of these steps have worked for you, you should be ready for the
