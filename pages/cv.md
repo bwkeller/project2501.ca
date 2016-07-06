@@ -34,6 +34,12 @@ Physics 599 Independent Research Project, Fall 2010
 ## Publications 
 
 ### Peer-Reviewed Publications 
+* _Clumpy high-z galaxies as a testbed for feedback-regulated galaxy formation_
+
+    Lucio Mayer, Valentina Tamburello, Alessandro Lupi, __Ben Keller__, J. Wadsley, Piero Madau
+    [submitted to The Astrophysical Journal
+    Letters](http://adsabs.harvard.edu/abs/2016arXiv160606739M)
+    
 * _Cosmological  Galaxy Evolution with Superbuble Feedback II: The Limits of
   Supernovae_
 
