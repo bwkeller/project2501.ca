@@ -34,6 +34,13 @@ Physics 599 Independent Research Project, Fall 2010
 # Publications 
 
 ## Peer-Reviewed Publications 
+* _NIHAO project II: Halo shape, phase-space density and velocity distribution
+  of dark matter in galaxy formation simulations_
+
+    Iryna Butsky, Andrea V. Macci&ograve;, Aaron A. Dutton, Liang Wang, Greg S.
+    Stinson, Camilla Penzo, Xi Kang, __Ben W. Keller__, James Wadsley 2016
+    [Monthly Notices of the Royal Astronomical Society](http://dx.doi.org/10.1093/mnras/stw1688)
+
 * _Clumpy high-z galaxies as a testbed for feedback-regulated galaxy formation_
 
     Lucio Mayer, Valentina Tamburello, Alessandro Lupi, __Ben Keller__, J. Wadsley, Piero Madau
@@ -43,9 +50,8 @@ Physics 599 Independent Research Project, Fall 2010
 * _Cosmological  Galaxy Evolution with Superbuble Feedback II: The Limits of
   Supernovae_
 
-    __B.W. Keller__, J. Wadsley, H.M.P Couchman 
-    [submitted to Monthly Notices of the Royal Astronomical
-    Society](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1604.08244)
+    __B.W. Keller__, J. Wadsley, H.M.P Couchman 2016
+    [Monthly Notices of the Royal Astronomical Society](http://dx.doi.org/10.1093/mnras/stw2029)
 
 * _NIHAO IV: Core creation and destruction in dark matter density profiles across
   cosmic time_
@@ -66,13 +72,6 @@ Physics 599 Independent Research Project, Fall 2010
 
     __B.W. Keller__, J. Wadsley, H.M.P. Couchman 2015
     [Monthly Notices of the Royal Astronomical Society](http://dx.doi.org/10.1093/mnras/stv1789)
-
-* _NIHAO project II: Halo shape, phase-space density and velocity distribution
-  of dark matter in galaxy formation simulations_
-
-    Iryna Butsky, Andrea V. Macci&ograve;, Aaron A. Dutton, Liang Wang, Greg S.
-    Stinson, Camilla Penzo, Xi Kang, __Ben W. Keller__, James Wadsley
-    [submitted to Monthly Notices of the Royal Astronomical Society](http://adsabs.harvard.edu/abs/2015arXiv150304814B)
 
 * _NIHAO project I: Reproducing the inefficiency of galaxy formation across
   cosmic time with a large sample of cosmological hydrodynamical simulations_
