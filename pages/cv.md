@@ -34,6 +34,12 @@ Physics 599 Independent Research Project, Fall 2010
 # Publications 
 
 ## Peer-Reviewed Publications 
+* _The anatomy of a star-forming galaxy: pressure-driven regulation of star
+  formation in simulated galaxies_
+
+    S. M. Benincasa, J. Wadsley, H.M.P. Couchman , __B. W. Keller__ 2016
+    [Monthly Notices of the Royal Astronomical Society](http://dx.doi.org/10.1093/mnras/stw1741)
+
 * _NIHAO project II: Halo shape, phase-space density and velocity distribution
   of dark matter in galaxy formation simulations_
 
