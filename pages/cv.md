@@ -50,7 +50,7 @@ Physics 599 Independent Research Project, Fall 2010
 * _Clumpy high-z galaxies as a testbed for feedback-regulated galaxy formation_
 
     Lucio Mayer, Valentina Tamburello, Alessandro Lupi, __Ben Keller__, J. Wadsley, Piero Madau
-    [submitted to The Astrophysical Journal
+    [Accepted to The Astrophysical Journal
     Letters](http://adsabs.harvard.edu/abs/2016arXiv160606739M)
     
 * _Cosmological  Galaxy Evolution with Superbuble Feedback II: The Limits of
@@ -231,6 +231,8 @@ Physics 599 Independent Research Project, Fall 2010
 
 ## Software Contributions 
 * [astLib](http://astlib.sf.net) Python Astronomy Modules 
+* [ChaNGa](http://www-hpcc.astro.washington.edu/tools/changa.html) Hydrodynamics
+  + N-Body Simulation Code
 * [yt](http://yt-project.org) Volumetric Data Analysis Toolkit (Project Member)
 * [matplotlib](http://matplotlib.org) Python 2D Plotting Library
 * [pynbody](https://code.google.com/p/pynbody/) N-Body/SPH analysis for Python
