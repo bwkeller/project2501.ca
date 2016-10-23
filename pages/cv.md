@@ -34,6 +34,11 @@ Physics 599 Independent Research Project, Fall 2010
 # Publications 
 
 ## Peer-Reviewed Publications 
+* _La Fin Du MOND? LCDM is Fully Consistent with SPARC Acceleration Law_
+    
+    B.W. Keller, J.W. Wadsley 2016
+    [Submitted to The Astrophysical Journal
+    Letters](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1610.06183)
 * _The anatomy of a star-forming galaxy: pressure-driven regulation of star
   formation in simulated galaxies_
 
@@ -50,8 +55,8 @@ Physics 599 Independent Research Project, Fall 2010
 * _Clumpy high-z galaxies as a testbed for feedback-regulated galaxy formation_
 
     Lucio Mayer, Valentina Tamburello, Alessandro Lupi, __Ben Keller__, J. Wadsley, Piero Madau
-    [Accepted to The Astrophysical Journal
-    Letters](http://adsabs.harvard.edu/abs/2016arXiv160606739M)
+    [The Astrophysical Journal
+    Letters](http://dx.doi.org/10.3847/2041-8205/830/1/L13)
     
 * _Cosmological  Galaxy Evolution with Superbuble Feedback II: The Limits of
   Supernovae_
