@@ -8,11 +8,12 @@
 -->
 
 # Education 
-* PhD Physics and Astronomy, McMaster University 2011-present (expected 2017)
+* PhD Physics and Astronomy, McMaster University 2017
 * BSc Physics with Computer Science Minor, University of Calgary 2011
 
 # Research Experience 
-* McMaster University, PhD Thesis project, stellar feedback processes in galaxy simulations. 2011-present
+* McMaster University, Postdoctoral Research Associate, 2017-present
+* McMaster University, PhD Thesis project, stellar feedback processes in galaxy simulations. 2011-2017
 * University of Calgary, Median stacking for radio polarization project, 2009-2010
 * University of Calgary, Source finding software evaluation with POSSUM Working Group 2, Summer 2010
 * University of Calgary, _Radio Emission and Polarization of Optically Selected AGN Host Galaxies_,
@@ -34,10 +35,15 @@ Physics 599 Independent Research Project, Fall 2010
 # Publications 
 
 ## Peer-Reviewed Publications 
+* _CDM is consistent with SPARC Acceleration Law_
+
+    __B. W. Keller__, J. W. Wadsley
+    [The Astrophysical Journal Letters](https://doi.org/10.3847/2041-8213/835/1/L17)
+
 * _The anatomy of a star-forming galaxy: pressure-driven regulation of star
   formation in simulated galaxies_
 
-    S. M. Benincasa, J. Wadsley, H.M.P. Couchman , __B. W. Keller__ 2016
+    S. M. Benincasa, J. Wadsley, H. M. P. Couchman , __B. W. Keller__ 2016
     [Monthly Notices of the Royal Astronomical Society](http://dx.doi.org/10.1093/mnras/stw1741)
 
 * _NIHAO project II: Halo shape, phase-space density and velocity distribution
@@ -56,7 +62,7 @@ Physics 599 Independent Research Project, Fall 2010
 * _Cosmological  Galaxy Evolution with Superbuble Feedback II: The Limits of
   Supernovae_
 
-    __B.W. Keller__, J. Wadsley, H.M.P Couchman 2016
+    __B. W. Keller__, J. Wadsley, H. M. P. Couchman 2016
     [Monthly Notices of the Royal Astronomical Society](http://dx.doi.org/10.1093/mnras/stw2029)
 
 * _NIHAO IV: Core creation and destruction in dark matter density profiles across
@@ -76,7 +82,7 @@ Physics 599 Independent Research Project, Fall 2010
 * _Cosmological Galaxy Evolution with Superbubble Feedback I: Realistic Galaxies
   with Moderate Feedback_
 
-    __B.W. Keller__, J. Wadsley, H.M.P. Couchman 2015
+    __B. W. Keller__, J. Wadsley, H. M. P. Couchman 2015
     [Monthly Notices of the Royal Astronomical Society](http://dx.doi.org/10.1093/mnras/stv1789)
 
 * _NIHAO project I: Reproducing the inefficiency of galaxy formation across

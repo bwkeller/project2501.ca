@@ -10,8 +10,10 @@
 
 # [IPython Notebooks](/notes.html)
 # Papers
-* _La Fin Du MOND? ΛCDM is fully consistent with SPARC Acceleration Law_
-  [draft](http://www.physics.mcmaster.ca/~kellerbw/ms.pdf)
+* _ΛCDM is consistent with SPARC Acceleration Law_
+  [arXiv](https://arxiv.org/abs/1610.06183)
+  [ApJL](https://doi.org/10.3847/2041-8213/835/1/L17)
+  [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1610.06183)
 * _Cosmological Galaxy Evolution With Superbubble Feedback II_
   [arXiv](http://arxiv.org/abs/1604.08244)
   [mnras](http://mnras.oxfordjournals.org/content/early/2016/08/12/mnras.stw2029)
