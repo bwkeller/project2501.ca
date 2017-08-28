@@ -1,5 +1,5 @@
 <!-- 
-.. title: Setting Up Your Laptop for the GLCC Workshop
+.. title: Setting Up Your Laptop for the GLC16 Workshop
 .. slug: setting-up-your-laptop-for-the-glcc-workshop
 .. date: 2016-06-13 15:10:31 UTC-04:00
 .. tags: linux,guides,simulations
