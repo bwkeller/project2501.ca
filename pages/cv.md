@@ -7,18 +7,19 @@
 .. description: 
 -->
 
-## Education 
-* PhD Physics and Astronomy, McMaster University 2011-present (expected 2017)
+# Education 
+* PhD Physics and Astronomy, McMaster University 2017
 * BSc Physics with Computer Science Minor, University of Calgary 2011
 
-## Research Experience 
-* McMaster University, PhD Thesis project, stellar feedback processes in galaxy simulations. 2011-present
+# Research Experience 
+* McMaster University, Postdoctoral Research Associate, 2017-present
+* McMaster University, PhD Thesis project, stellar feedback processes in galaxy simulations. 2011-2017
 * University of Calgary, Median stacking for radio polarization project, 2009-2010
 * University of Calgary, Source finding software evaluation with POSSUM Working Group 2, Summer 2010
 * University of Calgary, _Radio Emission and Polarization of Optically Selected AGN Host Galaxies_,
 Physics 599 Independent Research Project, Fall 2010
 
-## Awards 
+# Awards 
 * Clifton W. Sherman Graduate Scholarship, Ontario Provincial Government, 2015
 * Ontario Graduate Scholarship, Ontario Provincial Government, 2012 & 2014
 * Eugene G. Bolotkin Scholarship, McMaster University Graduate Prestige Scholarship, 2012 (Declined)
@@ -27,19 +28,42 @@ Physics 599 Independent Research Project, Fall 2010
 * Dean's Merit Admission Award - Faculty of Science, University of Calgary, 2006
 * Admission Scholarship, University of Calgary, 2006
 
-## Teaching Experience 
+# Teaching Experience 
 * Teaching Assistant, McMaster University Undergraduate Physics & Astronomy, 2011-present
 * Physics Tutor, Alberta High School Physics, 2010-2011
 
-## Publications 
+# Publications 
 
-### Peer-Reviewed Publications 
+## Peer-Reviewed Publications 
+* _CDM is consistent with SPARC Acceleration Law_
+
+    __B. W. Keller__, J. W. Wadsley
+    [The Astrophysical Journal Letters](https://doi.org/10.3847/2041-8213/835/1/L17)
+
+* _The anatomy of a star-forming galaxy: pressure-driven regulation of star
+  formation in simulated galaxies_
+
+    S. M. Benincasa, J. Wadsley, H. M. P. Couchman , __B. W. Keller__ 2016
+    [Monthly Notices of the Royal Astronomical Society](http://dx.doi.org/10.1093/mnras/stw1741)
+
+* _NIHAO project II: Halo shape, phase-space density and velocity distribution
+  of dark matter in galaxy formation simulations_
+
+    Iryna Butsky, Andrea V. Macci&ograve;, Aaron A. Dutton, Liang Wang, Greg S.
+    Stinson, Camilla Penzo, Xi Kang, __Ben W. Keller__, James Wadsley 2016
+    [Monthly Notices of the Royal Astronomical Society](http://dx.doi.org/10.1093/mnras/stw1688)
+
+* _Clumpy high-z galaxies as a testbed for feedback-regulated galaxy formation_
+
+    Lucio Mayer, Valentina Tamburello, Alessandro Lupi, __Ben Keller__, J. Wadsley, Piero Madau
+    [Accepted to The Astrophysical Journal
+    Letters](http://adsabs.harvard.edu/abs/2016arXiv160606739M)
+    
 * _Cosmological  Galaxy Evolution with Superbuble Feedback II: The Limits of
   Supernovae_
 
-    __B.W. Keller__, J. Wadsley, H.M.P Couchman 
-    [submitted to Monthly Notices of the Royal Astronomical
-    Society](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1604.08244)
+    __B. W. Keller__, J. Wadsley, H. M. P. Couchman 2016
+    [Monthly Notices of the Royal Astronomical Society](http://dx.doi.org/10.1093/mnras/stw2029)
 
 * _NIHAO IV: Core creation and destruction in dark matter density profiles across
   cosmic time_
@@ -58,15 +82,8 @@ Physics 599 Independent Research Project, Fall 2010
 * _Cosmological Galaxy Evolution with Superbubble Feedback I: Realistic Galaxies
   with Moderate Feedback_
 
-    __B.W. Keller__, J. Wadsley, H.M.P. Couchman 2015
+    __B. W. Keller__, J. Wadsley, H. M. P. Couchman 2015
     [Monthly Notices of the Royal Astronomical Society](http://dx.doi.org/10.1093/mnras/stv1789)
-
-* _NIHAO project II: Halo shape, phase-space density and velocity distribution
-  of dark matter in galaxy formation simulations_
-
-    Iryna Butsky, Andrea V. Macci&ograve;, Aaron A. Dutton, Liang Wang, Greg S.
-    Stinson, Camilla Penzo, Xi Kang, __Ben W. Keller__, James Wadsley
-    [submitted to Monthly Notices of the Royal Astronomical Society](http://adsabs.harvard.edu/abs/2015arXiv150304814B)
 
 * _NIHAO project I: Reproducing the inefficiency of galaxy formation across
   cosmic time with a large sample of cosmological hydrodynamical simulations_
@@ -100,7 +117,7 @@ Physics 599 Independent Research Project, Fall 2010
     Samuel J. George, Jeroen M. Stil, __Ben W. Keller__ 2011 
     [Publications of The Astronomical Society of Australia]( http://dx.doi.org/10.1071/AS11027)
 
-### Invited Talks 
+## Invited Talks 
 * _Superbubble Regulation of Baryons in Cosmological Galaxy Formation_
 
     __B.W. Keller__, J. Wadsley
@@ -112,7 +129,7 @@ Physics 599 Independent Research Project, Fall 2010
     __B.W. Keller__, J. Wadsley
     [(Talk delivered at Computational Galaxy Formation 2016 in Ringberg, Germany)](http://girichidis.de/ringberg2016/)
 
-### Contributed Talks 
+## Contributed Talks 
 * _Superbubble Driven Galactic Winds: Realistic Galaxies from moderate Feedback
   Energy_
 
@@ -139,7 +156,7 @@ Physics 599 Independent Research Project, Fall 2010
     Samuel J. George, Jeroen M. Stil, & __Ben W. Keller__
     (Talk delivered by Dr. George at GALFACTS/POSSUM 2010 Workshop in Calgary, Canada)
 
-### Conference Proceedings 
+## Conference Proceedings 
 * _Stacking for Cosmic Magnetism with SKA Surveys_
     
     J.M. Stil, __B.W. Keller__
@@ -151,7 +168,7 @@ Physics 599 Independent Research Project, Fall 2010
     [Proceedings of the American Astronomical Society Meeting #223, 2014 in Washington DC, USA](http://adsabs.harvard.edu/abs/2014AAS...22345303S)
 
 
-### Conference Posters 
+## Conference Posters 
 * _Scultiping Disk Galaxies with Superbubble Powered Outflows_
 
     __Ben Keller__, James Wadsley, Hugh Couchman
@@ -178,38 +195,38 @@ Physics 599 Independent Research Project, Fall 2010
     Jeroen M. Stil, __Ben W. Keller__, Samuel J. George, & Russ Taylor 
     (Poster presented by Dr. Stil at SKA 2010 Conference in Manchester, UK)
 
-## Professional Societies 
+# Professional Societies 
 
-### Society Membership 
+## Society Membership 
 * __CASCA__ 2011-2015
 
-### Committee Membership 
+## Committee Membership 
 * __CASCA Graduate Student Committe__ _Chair_ 2015-present
 * __CASCA Graduate Student Committe__ _McMaster University Representative_ 2014-2015
 
-## Public Outreach 
+# Public Outreach 
 
-### Talks & Presentations 
+## Talks & Presentations 
 * _Building a Stack for Fun and Profit_ talk delivered Rothney Astrophysical Observatory, 2010
 * _A Brief History of Radio Astronomy_ talk delivered at [Calgary Pecha Kucha Night 4](http://pecha-kucha.org/night/calgary/4), 2010
 * _Astronomy For Hackers_ talk delivered at [Toorcamp](http://www.toorcamp.org), 2009
 
-### Volunteer Work 
+## Volunteer Work 
 * Volunteer with [Let's Talk Science](http://www.letstalkscience.ca/) 20011-present
 * Organizer for Hamilton [All Science Challenge](http://www.letstalkscience.ca/challenge.html), 2012
 * Mentor for [FIRST LEGO League](http://firstlegoleague.org/challenge/2011foodfactor) team, 2011-2012
 * Volunteer at [Rothney Astrophysical Observatory](http://www.ucalgary.ca/rao/), 2010-2011
 * Director of [Calgary Protospace](http://protospace.ca/), 2010-2011
 
-### Additional Experience 
+## Additional Experience 
 * Coordinator of [Origins Institute 3D
   Theatre](http://origins.mcmaster.ca/3D-theatre/) 2014-present
 * Presenter at the [W.J. McCallion
   Planetarium](http://www.physics.mcmaster.ca/planetarium/) 2011-present
 
-## Computing Skills & Experience 
+# Computing Skills & Experience 
 
-### Programming Languages I Speak 
+## Programming Languages I Speak 
 * C/C++
 * Perl
 * Python
@@ -218,8 +235,10 @@ Physics 599 Independent Research Project, Fall 2010
 * Java
 * Javascript+HTML/CSS
 
-### Software Contributions 
+## Software Contributions 
 * [astLib](http://astlib.sf.net) Python Astronomy Modules 
+* [ChaNGa](http://www-hpcc.astro.washington.edu/tools/changa.html) Hydrodynamics
+  + N-Body Simulation Code
 * [yt](http://yt-project.org) Volumetric Data Analysis Toolkit (Project Member)
 * [matplotlib](http://matplotlib.org) Python 2D Plotting Library
 * [pynbody](https://code.google.com/p/pynbody/) N-Body/SPH analysis for Python
