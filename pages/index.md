@@ -21,7 +21,7 @@ group at Universität Heidelberg's Astronomisches Rechen-Institut. I obtained my
 PhD at McMaster University. I got my BSc in Physics with a minor in Computer
 Science from the University of Calgary in 2011. My current research involves
 numerical modelling of the interstellar medium over cosmological timescales.  My
-publications can be found under my <a href="cv.html">Curriculum Vitae</a></p>
+publications can be found under my <a href="cv.html">Curriculum Vitae</a>.</p>
 
 <p>As an undergraduate at the U of C, I worked with
 <a href="http://www.ras.ucalgary.ca/~stil/">Dr. Jeroen Stil</a> on stacking
@@ -31,7 +31,7 @@ for the Australian SKA Pathfinder (ASKAP) radio telescope.</p>
 
 <p>At McMaster, I worked with <a href="http://imp.mcmaster.ca/">Dr. James
 Wadsley</a> in the Physics &amp; Astronomy department.   My PhD research was
-focussed around understanding how the energy released from supernovae explosions
+focused around understanding how the energy released from supernovae explosions
 regulated the flow of gas through galaxies, and how that gas is converted into
 stars.</p>
 
