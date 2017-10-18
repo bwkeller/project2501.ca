@@ -58,7 +58,7 @@ Physics 599 Independent Research Project, Fall 2010
     Kentaro Nagamine, Sarah Nickerson, Brian W. O'Shea, Joel R. Primack, Santi
     Roca-Fàbrega, Vadim Semenov, Ikkoh Shimizu, Christine M. Simpson, Keita
     Todoroki, James W. Wadsley, John H. Wise, AGORA Collaboration 2017
-    [The Astrophysical Journal(http://dx.doi.org/10.3847/1538-4357/833/2/202)
+    [The Astrophysical Journal](http://dx.doi.org/10.3847/1538-4357/833/2/202)
 
 * _CDM is consistent with SPARC Acceleration Law_
 
