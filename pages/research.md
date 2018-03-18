@@ -10,6 +10,9 @@
 
 # [IPython Notebooks](/notes.html)
 # Papers
+* _Chaos and Variance in Galaxy Formation_
+  [arXiv](https://arxiv.org/abs/1803.05445)
+  [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1803.05445)
 * _ΛCDM is consistent with SPARC Acceleration Law_
   [arXiv](https://arxiv.org/abs/1610.06183)
   [ApJL](https://doi.org/10.3847/2041-8213/835/1/L17)
