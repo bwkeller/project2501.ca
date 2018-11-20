@@ -49,8 +49,8 @@ Physics 599 Independent Research Project, Fall 2010
 * _Estimating the Milky Way's Mass via Hierarchical Bayes: A Blind Test on MUGS2
   Simulated Galaxies_
 
-  Gwendolyn M. Eadie, __Benjamin W. Keller__, William E. Harris 2018
-  [The Astrophysical Journal](https://doi.org/10.3847/1538-4357/aadb95)
+    Gwendolyn M. Eadie, __Benjamin W. Keller__, William E. Harris 2018
+    [The Astrophysical Journal](https://doi.org/10.3847/1538-4357/aadb95)
 
 * _Gasoline2: A Modern Smoothed Particle Hydrodynamics Code_
 
