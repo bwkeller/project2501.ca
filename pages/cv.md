@@ -36,6 +36,22 @@ Physics 599 Independent Research Project, Fall 2010
 # Publications 
 
 ## Peer-Reviewed Publications 
+* _Chaos and variance in galaxy formation_
+
+    __B.W. Keller__, J.W. Wadsley, L. Wang, J.M. Diederik Kruijssen 2019
+    [Monthly Notices of the Royal Astronomical Society](https://doi.org/10.1093/mnras/sty2859)
+
+* _The trajectories of galaxies in groups: mass loss and preprocessing_
+
+    Gandhali D. Joshi, Laura C. Parker, James Wadsley, __Benjamin W. Keller__ 2019
+    [Monthly Notices of the Royal Astronomical Society](https://arxiv.org/abs/1811.06530)
+
+* _Estimating the Milky Way's Mass via Hierarchical Bayes: A Blind Test on MUGS2
+  Simulated Galaxies_
+
+  Gwendolyn M. Eadie, __Benjamin W. Keller__, William E. Harris 2018
+  [The Astrophysical Journal](https://doi.org/10.3847/1538-4357/aadb95)
+
 * _Gasoline2: A Modern Smoothed Particle Hydrodynamics Code_
 
     James W. Wadsley, __Benjamin W. Keller__, Thomas R. Quinn 2017
