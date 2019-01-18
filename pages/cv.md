@@ -8,11 +8,13 @@
 -->
 
 # Education 
-* PhD Physics and Astronomy, McMaster University 2011-present (expected 2017)
+* PhD Physics and Astronomy, McMaster University 2017
 * BSc Physics with Computer Science Minor, University of Calgary 2011
 
 # Research Experience 
-* McMaster University, PhD Thesis project, stellar feedback processes in galaxy simulations. 2011-present
+* Universität Heidelberg, Postdoctoral Research Associate, 2017-present
+* McMaster University, Postdoctoral Research Associate, 2017
+* McMaster University, PhD Thesis project, stellar feedback processes in galaxy simulations. 2011-2017
 * University of Calgary, Median stacking for radio polarization project, 2009-2010
 * University of Calgary, Source finding software evaluation with POSSUM Working Group 2, Summer 2010
 * University of Calgary, _Radio Emission and Polarization of Optically Selected AGN Host Galaxies_,
@@ -34,15 +36,55 @@ Physics 599 Independent Research Project, Fall 2010
 # Publications 
 
 ## Peer-Reviewed Publications 
-* _La Fin Du MOND? LCDM is Fully Consistent with SPARC Acceleration Law_
-    
-    B.W. Keller, J.W. Wadsley 2016
-    [Submitted to The Astrophysical Journal
-    Letters](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1610.06183)
+* _Chaos and variance in galaxy formation_
+
+    __B.W. Keller__, J.W. Wadsley, L. Wang, J.M. Diederik Kruijssen 2019
+    [Monthly Notices of the Royal Astronomical Society](https://doi.org/10.1093/mnras/sty2859)
+
+* _The trajectories of galaxies in groups: mass loss and preprocessing_
+
+    Gandhali D. Joshi, Laura C. Parker, James Wadsley, __Benjamin W. Keller__ 2019
+    [Monthly Notices of the Royal Astronomical Society](https://arxiv.org/abs/1811.06530)
+
+* _Estimating the Milky Way's Mass via Hierarchical Bayes: A Blind Test on MUGS2
+  Simulated Galaxies_
+
+  Gwendolyn M. Eadie, __Benjamin W. Keller__, William E. Harris 2018
+  [The Astrophysical Journal](https://doi.org/10.3847/1538-4357/aadb95)
+
+* _Gasoline2: A Modern Smoothed Particle Hydrodynamics Code_
+
+    James W. Wadsley, __Benjamin W. Keller__, Thomas R. Quinn 2017
+    [Monthly Notices of the Royal Astronomical Society](http://dx.doi.org/10.1093/mnras/stx1643)
+
+* _Star formation and ISM morphology in tidally induced spiral structures_
+
+    Alex R. Pettitt, Elizabeth J. Tasker, James W. Wadsley, __Ben W. Keller__, Samantha M. Benincasa 2017
+    [Monthly Notices of the Royal Astronomical Society](http://adsabs.harvard.edu/abs/2017MNRAS.468.4189P)
+
+* _The AGORA High-resolution Galaxy Simulations Comparison Project. II. Isolated Disk Test_
+
+    Ji-hoon Kim, Oscar Agertz, Romain Teyssier, Michael J. Butler, Daniel
+    Ceverino, Jun-Hwan Choi, Robert Feldmann, Ben W. Keller, Alessandro Lupi,
+    Thomas Quinn, Yves Revaz, Spencer Wallace, Nickolay Y. Gnedin, Samuel N.
+    Leitner, Sijing Shen, Britton D. Smith, Robert Thompson, Matthew J. Turk,
+    Tom Abel, Kenza S. Arraki, Samantha M. Benincasa, Sukanya Chakrabarti, Colin
+    DeGraf, Avishai Dekel, Nathan J. Goldbaum, Philip F. Hopkins, Cameron B.
+    Hummels, Anatoly Klypin, Hui Li, Piero Madau, Nir Mandelker, Lucio Mayer,
+    Kentaro Nagamine, Sarah Nickerson, Brian W. O'Shea, Joel R. Primack, Santi
+    Roca-Fàbrega, Vadim Semenov, Ikkoh Shimizu, Christine M. Simpson, Keita
+    Todoroki, James W. Wadsley, John H. Wise, AGORA Collaboration 2017
+    [The Astrophysical Journal](http://dx.doi.org/10.3847/1538-4357/833/2/202)
+
+* _CDM is consistent with SPARC Acceleration Law_
+
+    __B. W. Keller__, J. W. Wadsley 2017
+    [The Astrophysical Journal Letters](https://doi.org/10.3847/2041-8213/835/1/L17)
+
 * _The anatomy of a star-forming galaxy: pressure-driven regulation of star
   formation in simulated galaxies_
 
-    S. M. Benincasa, J. Wadsley, H.M.P. Couchman , __B. W. Keller__ 2016
+    S. M. Benincasa, J. Wadsley, H. M. P. Couchman , __B. W. Keller__ 2016
     [Monthly Notices of the Royal Astronomical Society](http://dx.doi.org/10.1093/mnras/stw1741)
 
 * _NIHAO project II: Halo shape, phase-space density and velocity distribution
@@ -61,7 +103,7 @@ Physics 599 Independent Research Project, Fall 2010
 * _Cosmological  Galaxy Evolution with Superbuble Feedback II: The Limits of
   Supernovae_
 
-    __B.W. Keller__, J. Wadsley, H.M.P Couchman 2016
+    __B. W. Keller__, J. Wadsley, H. M. P. Couchman 2016
     [Monthly Notices of the Royal Astronomical Society](http://dx.doi.org/10.1093/mnras/stw2029)
 
 * _NIHAO IV: Core creation and destruction in dark matter density profiles across
@@ -81,7 +123,7 @@ Physics 599 Independent Research Project, Fall 2010
 * _Cosmological Galaxy Evolution with Superbubble Feedback I: Realistic Galaxies
   with Moderate Feedback_
 
-    __B.W. Keller__, J. Wadsley, H.M.P. Couchman 2015
+    __B. W. Keller__, J. Wadsley, H. M. P. Couchman 2015
     [Monthly Notices of the Royal Astronomical Society](http://dx.doi.org/10.1093/mnras/stv1789)
 
 * _NIHAO project I: Reproducing the inefficiency of galaxy formation across
@@ -156,6 +198,10 @@ Physics 599 Independent Research Project, Fall 2010
     (Talk delivered by Dr. George at GALFACTS/POSSUM 2010 Workshop in Calgary, Canada)
 
 ## Conference Proceedings 
+* _Comparing the effects of supernovae feedback models on the interstellar medium_
+
+    Lindsey Byrne, Charlotte Christensen, __Benjamin W. Keller__
+    [Proceedings of the American Astronomical Society Meeting #229, 2017 in Grapevine TX, USA](http://adsabs.harvard.edu/abs/2017AAS...22934753B)
 * _Stacking for Cosmic Magnetism with SKA Surveys_
     
     J.M. Stil, __B.W. Keller__

@@ -10,16 +10,18 @@
 <div class="row">
 <div class="col-md-7">
 
-<h3>About Me</h3>
-<p>I am a human male, 20-something years old, from Canada.  I was born
+<h2>About Me</h2>
+<p>I am a human male, nearly-30 years old, from Canada.  I was born
 in <a href="http://en.wikipedia.org/wiki/Calgary">Calgary</a>, but I currently reside in
-<a href="http://en.wikipedia.org/wiki/Hamilton,_Ontario">Hamilton</a>.  </p>
+<a href="http://en.wikipedia.org/wiki/Heidelberg">Heidelberg</a>.  </p>
 
-<h3>Academics</h3>
-<p>I'm currently a PhD candidate at McMaster University. I got my BSc in Physics
-with a minor in Computer Science from the University of Calgary in 2011. My
-current research involves numerical modelling of galaxy evolution over
-cosmological timescales.</p> 
+<h2>Academics</h2>
+<p>I am a postdoctoral researcher in the <a href="http://mustang-project.org">MUSTANG</a> 
+group at Universität Heidelberg's Astronomisches Rechen-Institut. I obtained my
+PhD at McMaster University. I got my BSc in Physics with a minor in Computer
+Science from the University of Calgary in 2011. My current research involves
+numerical modelling of the interstellar medium over cosmological timescales.  My
+publications can be found under my <a href="cv.html">Curriculum Vitae</a>.</p>
 
 <p>As an undergraduate at the U of C, I worked with
 <a href="http://www.ras.ucalgary.ca/~stil/">Dr. Jeroen Stil</a> on stacking
@@ -27,29 +29,22 @@ radio polarization to examine faint extragalactic sources. I also worked in the
 POSSUM Working Group 2 to determine the requirements for stacking applications
 for the Australian SKA Pathfinder (ASKAP) radio telescope.</p> 
 
-<p>At McMaster, I work with <a href="http://imp.mcmaster.ca/">Dr. James
-Wadsley</a> in the Physics &amp; Astronomy department. My current research is
-focused on developing and improving subgrid models used in simulations of galaxy
-formation and evolution. I'm particularly interested in questions involving
-stellar feedback (supernovae, stellar winds, etc.) , and it's impact on galaxies
-and their surrounding intergalactic medium.  My publications can be found under
-my <a href="cv.html">Curriculum Vitae</a></p>
+<p>At McMaster, I worked with <a href="http://imp.mcmaster.ca/">Dr. James
+Wadsley</a> in the Physics &amp; Astronomy department.   My PhD research was
+focused around understanding how the energy released from supernovae explosions
+regulated the flow of gas through galaxies, and how that gas is converted into
+stars.</p>
 
-<p>I'm a TA for PHYS 1AO3 (Introductory Physics) PHYS 3B(A/B)3
-(Electronics), PHYS (2/4)G03 (Scientific Computing I/II), ASTRON 1F03 (Intro Astronomy),
-and ASTRON 1B03 (Big Questions).  If you are one of my students, feel free to
-email me if you'd like to ask me any questions, or set up office hours.</p>
-
-<h3>Outreach</h3>
-<p>Besides my research, I also enjoy doing public outreach for science.  I
-produce and present shows at the <a href="http://www.physics.mcmaster.ca/planetarium/index.html">
-W.J. McCallion Planetarium</a>, and I am a student director for the 
-<a href="http://origins.mcmaster.ca/outreach/3d-theatre">Origins Institute 3D
-Theatre</a>.  Come see some of our shows sometime, they are fun!</p>
+<h2>Consulting</h2>
+<p>From time to time, I also work as a consultant, offering services in data
+science, information visualization, and DevOps engineering.  I have done work
+for startups in Canada and the USA.  If you need a Swiss-army knife hacker,
+consider dropping me a line.  I work closely with my wife, who is a frontend web
+developer. <a href="http://www.tessaklettl.com">Check her out here.</a></p>
 
 </div>
 <div class="col-md-5">
-<img src="assets/img/self.jpg" alt="What I look Like">
+<img src="assets/img/self1.png" alt="What I look Like">
 </div>
 </div>
 <div class="row">

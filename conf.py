@@ -120,7 +120,7 @@ THEME = "2501"
 # (eg. 'Europe/Zurich')
 # Also, if you want to use a different time zone in some of your posts,
 # you can use the ISO 8601/RFC 3339 format (ex. 2012-03-30T23:00:00+02:00)
-TIMEZONE = "EDT"
+TIMEZONE = "UTC"
 
 # If you want to use ISO 8601 (also valid RFC 3339) throughout Nikola
 # (especially in new_post), set this to True.
@@ -291,7 +291,7 @@ REDIRECTIONS = []
 # And then do a backup, or run `nikola ping` from the `ping`
 # plugin (`nikola install_plugin ping`).
 # To do manual deployment, set it to []
-DEPLOY_COMMANDS = {'default':['rsync -rav output/* kellerbw@physserv.physics.mcmaster.ca:/net/physwww/1/home/kellerbw/public_html']}
+DEPLOY_COMMANDS = {'default':['rsync -rav output/* --delete root@project2501.ca:/var/www/project2501.ca']}
 
 # For user.github.io/organization.github.io pages, the DEPLOY branch
 # MUST be 'master', and 'gh-pages' for other repositories.
