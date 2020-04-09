@@ -1,4 +1,5 @@
 .doit.db
+pages/cv.md
 cache/
 cv_latex/cv*
 cv_latex/body.tex
