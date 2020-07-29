@@ -9,14 +9,26 @@
 -->
 
 # Papers
+* _Uncertainties in SN rates drive qualitative
+  differences in simulations of galaxy evolution_
+  [arXiv](https://arxiv.org/abs/2004.03608)
+  [ADS](https://ui.adsabs.harvard.edu/abs/2020arXiv200403608K/abstract)
+* _Where did the globular clusters of the Milky Way form?_
+  [arXiv](https://arxiv.org/abs/2005.05342)
+  [mnras](https://doi.org/10.1093/mnras/staa1439)
+  [ADS](https://ui.adsabs.harvard.edu/abs/2020MNRAS.495.4248K/abstract)
+* _Entropy-driven winds: Outflows and fountains lifted gently by buoyancy_
+  [arXiv](https://arxiv.org/abs/1909.00815)
+  [mnras](https://doi.org/10.1093/mnras/staa380)
+  [ADS](https://ui.adsabs.harvard.edu/abs/2020MNRAS.493.2149K/abstract)
 * _Chaos and Variance in Galaxy Formation_
   [arXiv](https://arxiv.org/abs/1803.05445)
   [mnras](https://doi.org/10.1093/mnras/sty2859)
-  [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1803.05445)
+  [ADS](https://ui.adsabs.harvard.edu/abs/2019MNRAS.482.2244K/abstract)
 * _ΛCDM is consistent with SPARC Acceleration Law_
   [arXiv](https://arxiv.org/abs/1610.06183)
   [ApJL](https://doi.org/10.3847/2041-8213/835/1/L17)
-  [ADS](http://adsabs.harvard.edu/cgi-bin/bib_query?arXiv:1610.06183)
+  [ADS](https://ui.adsabs.harvard.edu/abs/2017ApJ...835L..17K/abstract)
 * _Cosmological Galaxy Evolution With Superbubble Feedback II_
   [arXiv](http://arxiv.org/abs/1604.08244)
   [mnras](http://mnras.oxfordjournals.org/content/early/2016/08/12/mnras.stw2029)
