@@ -1,5 +1,152 @@
 <?xml version='1.0' encoding='utf8'?>
-<records retrieved="26" selected="26" start="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ads.harvard.edu/schema/abs/1.1/references http://ads.harvard.edu/schema/abs/1.1/references.xsd">
+<records retrieved="29" selected="29" start="1" xmlns="http://ads.harvard.edu/schema/abs/1.1/references" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ads.harvard.edu/schema/abs/1.1/references http://ads.harvard.edu/schema/abs/1.1/references.xsd">
+<record>
+<bibcode>2020MNRAS.tmp.2244J</bibcode>
+<title>The role of galactic dynamics in shaping the physical properties of giant molecular clouds in Milky Way-like galaxies</title>
+<author>Jeffreson, Sarah M. R.</author>
+<author>Kruijssen, J. M. Diederik</author>
+<author>Keller, Benjamin W.</author>
+<author>Chevance, Mélanie</author>
+<author>Glover, Simon C. O.</author>
+<journal>Monthly Notices of the Royal Astronomical Society, Advance Access</journal>
+<pubdate>Jul 2020</pubdate>
+<link type="abstract">
+<name>abstract</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.tmp.2244J/abstract</url>
+</link>
+<link type="coreads">
+<name>Co-Reads</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.tmp.2244J/coreads</url>
+</link>
+<link type="EPRINT_HTML">
+<name>arXiv Article</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.tmp.2244J/EPRINT_HTML</url>
+</link>
+<link type="PUB_HTML">
+<name>Publisher Article</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.tmp.2244J/PUB_HTML</url>
+</link>
+<link access="open" type="EPRINT_PDF">
+<name>arXiv PDF</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.tmp.2244J/EPRINT_PDF</url>
+</link>
+<url>https://ui.adsabs.harvard.edu/abs/2020MNRAS.tmp.2244J</url>
+<DOI>10.1093/mnras/staa2127</DOI>
+<eprintid>arXiv:2007.00006</eprintid>
+</record>
+
+<record>
+<bibcode>2020MNRAS.495.4248K</bibcode>
+<title>Where did the globular clusters of the Milky Way form? Insights from the E-MOSAICS simulations</title>
+<author>Keller, Benjamin W.</author>
+<author>Kruijssen, J. M. Diederik</author>
+<author>Pfeffer, Joel</author>
+<author>Reina-Campos, Marta</author>
+<author>Bastian, Nate</author>
+<author>Trujillo-Gomez, Sebastian</author>
+<author>Hughes, Meghan E.</author>
+<author>Crain, Robert A.</author>
+<journal>Monthly Notices of the Royal Astronomical Society, Volume 495, Issue 4, pp.4248-4267</journal>
+<pubdate>May 2020</pubdate>
+<link type="abstract">
+<name>abstract</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.495.4248K/abstract</url>
+</link>
+<link type="coreads">
+<name>Co-Reads</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.495.4248K/coreads</url>
+</link>
+<link type="EPRINT_HTML">
+<name>arXiv Article</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.495.4248K/EPRINT_HTML</url>
+</link>
+<link type="PUB_HTML">
+<name>Publisher Article</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.495.4248K/PUB_HTML</url>
+</link>
+<link access="open" type="EPRINT_PDF">
+<name>arXiv PDF</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.495.4248K/EPRINT_PDF</url>
+</link>
+<link type="PUB_PDF">
+<name>Publisher PDF</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.495.4248K/PUB_PDF</url>
+</link>
+<url>https://ui.adsabs.harvard.edu/abs/2020MNRAS.495.4248K</url>
+<DOI>10.1093/mnras/staa1439</DOI>
+<eprintid>arXiv:2005.05342</eprintid>
+</record>
+
+<record>
+<bibcode>2020arXiv200502401T</bibcode>
+<title>The kinematics of globular cluster populations in the E-MOSAICS simulations and their implications for the assembly history of the Milky Way</title>
+<author>Trujillo-Gomez, Sebastian</author>
+<author>Kruijssen, J. M. Diederik</author>
+<author>Reina-Campos, Marta</author>
+<author>Pfeffer, Joel L.</author>
+<author>Keller, Benjamin W.</author>
+<author>Crain, Robert A.</author>
+<author>Bastian, Nate</author>
+<author>Hughes, Meghan E.</author>
+<journal>eprint arXiv:2005.02401</journal>
+<pubdate>May 2020</pubdate>
+<link type="abstract">
+<name>abstract</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020arXiv200502401T/abstract</url>
+</link>
+<link type="coreads">
+<name>Co-Reads</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020arXiv200502401T/coreads</url>
+</link>
+<link type="EPRINT_HTML">
+<name>arXiv Article</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020arXiv200502401T/EPRINT_HTML</url>
+</link>
+<link access="open" type="EPRINT_PDF">
+<name>arXiv PDF</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020arXiv200502401T/EPRINT_PDF</url>
+</link>
+<url>https://ui.adsabs.harvard.edu/abs/2020arXiv200502401T</url>
+<eprintid>arXiv:2005.02401</eprintid>
+</record>
+
+<record>
+<bibcode>2020MNRAS.495..199G</bibcode>
+<title>Heart of darkness: the influence of galactic dynamics on quenching star formation in galaxy spheroids</title>
+<author>Gensior, Jindra</author>
+<author>Kruijssen, J. M. Diederik</author>
+<author>Keller, Benjamin W.</author>
+<journal>Monthly Notices of the Royal Astronomical Society, Volume 495, Issue 1, pp.199-223</journal>
+<pubdate>May 2020</pubdate>
+<link type="abstract">
+<name>abstract</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.495..199G/abstract</url>
+</link>
+<link type="coreads">
+<name>Co-Reads</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.495..199G/coreads</url>
+</link>
+<link type="EPRINT_HTML">
+<name>arXiv Article</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.495..199G/EPRINT_HTML</url>
+</link>
+<link type="PUB_HTML">
+<name>Publisher Article</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.495..199G/PUB_HTML</url>
+</link>
+<link access="open" type="EPRINT_PDF">
+<name>arXiv PDF</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.495..199G/EPRINT_PDF</url>
+</link>
+<link type="PUB_PDF">
+<name>Publisher PDF</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.495..199G/PUB_PDF</url>
+</link>
+<url>https://ui.adsabs.harvard.edu/abs/2020MNRAS.495..199G</url>
+<DOI>10.1093/mnras/staa1184</DOI>
+<eprintid>arXiv:2002.01484</eprintid>
+</record>
+
 <record>
 <bibcode>2020MNRAS.493.2149K</bibcode>
 <title>Entropy-driven winds: Outflows and fountains lifted gently by buoyancy</title>
@@ -32,9 +179,51 @@
 <name>Publisher PDF</name>
 <url>https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.493.2149K/PUB_PDF</url>
 </link>
+<link type="SIMBAD">
+<name>SIMBAD Database at the CDS</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.493.2149K/SIMBAD</url>
+<count>1</count>
+</link>
+<link type="MAST">
+<name>Mikulski Archive for Space Telescopes</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.493.2149K/MAST</url>
+<count>1</count>
+</link>
+<link type="ESA">
+<name>ESAC Science Data Center</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.493.2149K/ESA</url>
+<count>1</count>
+</link>
 <url>https://ui.adsabs.harvard.edu/abs/2020MNRAS.493.2149K</url>
 <DOI>10.1093/mnras/staa380</DOI>
 <eprintid>arXiv:1909.00815</eprintid>
+</record>
+
+<record>
+<bibcode>2020arXiv200403608K</bibcode>
+<title>Below the subgrid: uncertainties in supernova input rates drive qualitative differences in simulations of galaxy evolution</title>
+<author>Keller, Benjamin W.</author>
+<author>Kruijssen, J. M. Diederik</author>
+<journal>eprint arXiv:2004.03608</journal>
+<pubdate>Apr 2020</pubdate>
+<link type="abstract">
+<name>abstract</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020arXiv200403608K/abstract</url>
+</link>
+<link type="coreads">
+<name>Co-Reads</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020arXiv200403608K/coreads</url>
+</link>
+<link type="EPRINT_HTML">
+<name>arXiv Article</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020arXiv200403608K/EPRINT_HTML</url>
+</link>
+<link access="open" type="EPRINT_PDF">
+<name>arXiv PDF</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2020arXiv200403608K/EPRINT_PDF</url>
+</link>
+<url>https://ui.adsabs.harvard.edu/abs/2020arXiv200403608K</url>
+<eprintid>arXiv:2004.03608</eprintid>
 </record>
 
 <record>
@@ -297,10 +486,6 @@
 <name>abstract</name>
 <url>https://ui.adsabs.harvard.edu/link_gateway/2017AAS...22934753B/abstract</url>
 </link>
-<link type="coreads">
-<name>Co-Reads</name>
-<url>https://ui.adsabs.harvard.edu/link_gateway/2017AAS...22934753B/coreads</url>
-</link>
 <url>https://ui.adsabs.harvard.edu/abs/2017AAS...22934753B</url>
 </record>
 
@@ -504,46 +689,6 @@
 </record>
 
 <record>
-<bibcode>2016ApJ...830L..13M</bibcode>
-<title>Clumpy Disks as a Testbed for Feedback-regulated Galaxy Formation</title>
-<author>Mayer, Lucio</author>
-<author>Tamburello, Valentina</author>
-<author>Lupi, Alessandro</author>
-<author>Keller, Ben</author>
-<author>Wadsley, James</author>
-<author>Madau, Piero</author>
-<journal>The Astrophysical Journal Letters, Volume 830, Issue 1, article id. L13, 7 pp. (2016).</journal>
-<pubdate>Oct 2016</pubdate>
-<link type="abstract">
-<name>abstract</name>
-<url>https://ui.adsabs.harvard.edu/link_gateway/2016ApJ...830L..13M/abstract</url>
-</link>
-<link type="coreads">
-<name>Co-Reads</name>
-<url>https://ui.adsabs.harvard.edu/link_gateway/2016ApJ...830L..13M/coreads</url>
-</link>
-<link type="EPRINT_HTML">
-<name>arXiv Article</name>
-<url>https://ui.adsabs.harvard.edu/link_gateway/2016ApJ...830L..13M/EPRINT_HTML</url>
-</link>
-<link type="PUB_HTML">
-<name>Publisher Article</name>
-<url>https://ui.adsabs.harvard.edu/link_gateway/2016ApJ...830L..13M/PUB_HTML</url>
-</link>
-<link access="open" type="EPRINT_PDF">
-<name>arXiv PDF</name>
-<url>https://ui.adsabs.harvard.edu/link_gateway/2016ApJ...830L..13M/EPRINT_PDF</url>
-</link>
-<link access="open" type="PUB_PDF">
-<name>Publisher PDF</name>
-<url>https://ui.adsabs.harvard.edu/link_gateway/2016ApJ...830L..13M/PUB_PDF</url>
-</link>
-<url>https://ui.adsabs.harvard.edu/abs/2016ApJ...830L..13M</url>
-<DOI>10.3847/2041-8205/830/1/L13</DOI>
-<eprintid>arXiv:1606.06739</eprintid>
-</record>
-
-<record>
 <bibcode>2016MNRAS.462..663B</bibcode>
 <title>NIHAO project II: halo shape, phase-space density and velocity distribution of dark matter in galaxy formation simulations</title>
 <author>Butsky, Iryna</author>
@@ -590,6 +735,46 @@
 <url>https://ui.adsabs.harvard.edu/abs/2016MNRAS.462..663B</url>
 <DOI>10.1093/mnras/stw1688</DOI>
 <eprintid>arXiv:1503.04814</eprintid>
+</record>
+
+<record>
+<bibcode>2016ApJ...830L..13M</bibcode>
+<title>Clumpy Disks as a Testbed for Feedback-regulated Galaxy Formation</title>
+<author>Mayer, Lucio</author>
+<author>Tamburello, Valentina</author>
+<author>Lupi, Alessandro</author>
+<author>Keller, Ben</author>
+<author>Wadsley, James</author>
+<author>Madau, Piero</author>
+<journal>The Astrophysical Journal Letters, Volume 830, Issue 1, article id. L13, 7 pp. (2016).</journal>
+<pubdate>Oct 2016</pubdate>
+<link type="abstract">
+<name>abstract</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2016ApJ...830L..13M/abstract</url>
+</link>
+<link type="coreads">
+<name>Co-Reads</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2016ApJ...830L..13M/coreads</url>
+</link>
+<link type="EPRINT_HTML">
+<name>arXiv Article</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2016ApJ...830L..13M/EPRINT_HTML</url>
+</link>
+<link type="PUB_HTML">
+<name>Publisher Article</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2016ApJ...830L..13M/PUB_HTML</url>
+</link>
+<link access="open" type="EPRINT_PDF">
+<name>arXiv PDF</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2016ApJ...830L..13M/EPRINT_PDF</url>
+</link>
+<link access="open" type="PUB_PDF">
+<name>Publisher PDF</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2016ApJ...830L..13M/PUB_PDF</url>
+</link>
+<url>https://ui.adsabs.harvard.edu/abs/2016ApJ...830L..13M</url>
+<DOI>10.3847/2041-8205/830/1/L13</DOI>
+<eprintid>arXiv:1606.06739</eprintid>
 </record>
 
 <record>
@@ -642,48 +827,6 @@
 <url>https://ui.adsabs.harvard.edu/abs/2016MNRAS.456.3542T</url>
 <DOI>10.1093/mnras/stv2856</DOI>
 <eprintid>arXiv:1507.03590</eprintid>
-</record>
-
-<record>
-<bibcode>2015MNRAS.454...83W</bibcode>
-<title>NIHAO project - I. Reproducing the inefficiency of galaxy formation across cosmic time with a large sample of cosmological hydrodynamical simulations</title>
-<author>Wang, Liang</author>
-<author>Dutton, Aaron A.</author>
-<author>Stinson, Gregory S.</author>
-<author>Macciò, Andrea V.</author>
-<author>Penzo, Camilla</author>
-<author>Kang, Xi</author>
-<author>Keller, Ben W.</author>
-<author>Wadsley, James</author>
-<journal>Monthly Notices of the Royal Astronomical Society, Volume 454, Issue 1, p.83-94</journal>
-<pubdate>Nov 2015</pubdate>
-<link type="abstract">
-<name>abstract</name>
-<url>https://ui.adsabs.harvard.edu/link_gateway/2015MNRAS.454...83W/abstract</url>
-</link>
-<link type="coreads">
-<name>Co-Reads</name>
-<url>https://ui.adsabs.harvard.edu/link_gateway/2015MNRAS.454...83W/coreads</url>
-</link>
-<link type="EPRINT_HTML">
-<name>arXiv Article</name>
-<url>https://ui.adsabs.harvard.edu/link_gateway/2015MNRAS.454...83W/EPRINT_HTML</url>
-</link>
-<link type="PUB_HTML">
-<name>Publisher Article</name>
-<url>https://ui.adsabs.harvard.edu/link_gateway/2015MNRAS.454...83W/PUB_HTML</url>
-</link>
-<link access="open" type="EPRINT_PDF">
-<name>arXiv PDF</name>
-<url>https://ui.adsabs.harvard.edu/link_gateway/2015MNRAS.454...83W/EPRINT_PDF</url>
-</link>
-<link access="open" type="PUB_PDF">
-<name>Publisher PDF</name>
-<url>https://ui.adsabs.harvard.edu/link_gateway/2015MNRAS.454...83W/PUB_PDF</url>
-</link>
-<url>https://ui.adsabs.harvard.edu/abs/2015MNRAS.454...83W</url>
-<DOI>10.1093/mnras/stv1937</DOI>
-<eprintid>arXiv:1503.04818</eprintid>
 </record>
 
 <record>
@@ -764,6 +907,48 @@
 <url>https://ui.adsabs.harvard.edu/abs/2015MNRAS.453.3499K</url>
 <DOI>10.1093/mnras/stv1789</DOI>
 <eprintid>arXiv:1505.06268</eprintid>
+</record>
+
+<record>
+<bibcode>2015MNRAS.454...83W</bibcode>
+<title>NIHAO project - I. Reproducing the inefficiency of galaxy formation across cosmic time with a large sample of cosmological hydrodynamical simulations</title>
+<author>Wang, Liang</author>
+<author>Dutton, Aaron A.</author>
+<author>Stinson, Gregory S.</author>
+<author>Macciò, Andrea V.</author>
+<author>Penzo, Camilla</author>
+<author>Kang, Xi</author>
+<author>Keller, Ben W.</author>
+<author>Wadsley, James</author>
+<journal>Monthly Notices of the Royal Astronomical Society, Volume 454, Issue 1, p.83-94</journal>
+<pubdate>Nov 2015</pubdate>
+<link type="abstract">
+<name>abstract</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2015MNRAS.454...83W/abstract</url>
+</link>
+<link type="coreads">
+<name>Co-Reads</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2015MNRAS.454...83W/coreads</url>
+</link>
+<link type="EPRINT_HTML">
+<name>arXiv Article</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2015MNRAS.454...83W/EPRINT_HTML</url>
+</link>
+<link type="PUB_HTML">
+<name>Publisher Article</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2015MNRAS.454...83W/PUB_HTML</url>
+</link>
+<link access="open" type="EPRINT_PDF">
+<name>arXiv PDF</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2015MNRAS.454...83W/EPRINT_PDF</url>
+</link>
+<link access="open" type="PUB_PDF">
+<name>Publisher PDF</name>
+<url>https://ui.adsabs.harvard.edu/link_gateway/2015MNRAS.454...83W/PUB_PDF</url>
+</link>
+<url>https://ui.adsabs.harvard.edu/abs/2015MNRAS.454...83W</url>
+<DOI>10.1093/mnras/stv1937</DOI>
+<eprintid>arXiv:1503.04818</eprintid>
 </record>
 
 <record>
@@ -953,10 +1138,6 @@
 <link type="abstract">
 <name>abstract</name>
 <url>https://ui.adsabs.harvard.edu/link_gateway/2014AAS...22345303S/abstract</url>
-</link>
-<link type="coreads">
-<name>Co-Reads</name>
-<url>https://ui.adsabs.harvard.edu/link_gateway/2014AAS...22345303S/coreads</url>
 </link>
 <link type="TOC">
 <name>Table of Contents</name>

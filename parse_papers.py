@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import re
+from io import StringIO
 import xml.etree.ElementTree as ET
 
 def parse_journal_name(journal):
@@ -14,8 +15,13 @@ def is_proceedings(journal):
 
 def get_records():
     parser = ET.XMLParser(encoding="utf-8")
-    papers = ET.parse("papers.xml", parser=parser)
-    root = papers.getroot()
+    papers = ET.iterparse("papers.xml", parser=parser)
+    #Remove the annoying ADS namespace
+    for _, el in papers:
+        prefix, has_namespace, postfix = el.tag.partition('}')
+        if has_namespace:
+            el.tag = postfix  # strip all namespaces
+    root = papers.root
     records = []
     for record in root:
         rdict = {}
@@ -24,9 +30,16 @@ def get_records():
         rdict['year'] = record.find('pubdate').text.split(' ')[-1]
         rdict['journal'] = record.find('journal').text
         try:
+            rdict['eprint'] = record.find('eprintid').text
+        except:
+            pass
+        try:
             rdict['DOI'] = record.find('DOI').text
         except:
             pass
+        for link in record.findall('link'):
+            if link.attrib['type'] == 'abstract':
+                rdict['ADS'] = link.find('url').text
         records.append(rdict)
     return records
 
@@ -49,7 +62,10 @@ if __name__ == "__main__":
                     entry += "; "
             entry += " " + record['year'] + " "
             entry += "[" + parse_journal_name(record['journal']) + "]"
-            entry += "(https://dx.doi.org/" + record['DOI'] + ")\n\n"
+            if 'DOI' in record:
+                entry += "(https://dx.doi.org/" + record['DOI'] + ")\n\n"
+            else:
+                entry += record['ADS'] + ")\n\n"
             entries += entry
     newcv = re.sub('CVBODY', entries, cv_in)
     cv_out = open('pages/cv.md', 'w')
